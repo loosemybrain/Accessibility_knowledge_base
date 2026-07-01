@@ -20,8 +20,8 @@
 3. SAP GUI for Windows
 4. Installation
 5. Barrierefreiheit
-6. Themes und Darstellung
-7. Schrift und Skalierung
+6. Themes
+7. Schrift und Darstellung
 8. Screenreader
 9. Tastaturbedienung
 10. SAP GUI Scripting
@@ -44,8 +44,8 @@
 | SAP GUI for Windows | Offen |
 | Installation | Offen |
 | Barrierefreiheit | In Bearbeitung |
-| Themes und Darstellung | Offen |
-| Schrift und Skalierung | Offen |
+| Themes | Offen |
+| Schrift und Darstellung | Offen |
 | Screenreader | Offen |
 | Tastaturbedienung | Offen |
 | SAP GUI Scripting | Offen |

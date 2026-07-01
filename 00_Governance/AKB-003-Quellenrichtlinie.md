@@ -230,3 +230,13 @@ Nicht jede Evidenz erfordert einen Praxistest.
 Ist ein Praxistest fachlich nicht sinnvoll oder nicht durchführbar, ist dies innerhalb der Evidenz nachvollziehbar zu begründen.
 
 Die Begründung ist Bestandteil der Evidenz und ersetzt den Praxistest nicht, sondern dokumentiert dessen bewussten Verzicht.
+
+## Forschungsmodus
+
+Sobald für eine Evidenz die Recherche beginnt, werden innerhalb der Evidenz ausschließlich Informationen dokumentiert, die unmittelbar aus einer geprüften Quelle oder einem reproduzierbaren Praxistest stammen.
+
+Bis zur tatsächlichen Prüfung einer Quelle bleiben die entsprechenden Abschnitte mit dem Status „Noch nicht recherchiert.“ oder „Noch nicht durchgeführt.“ gekennzeichnet.
+
+Vorläufige Zusammenfassungen, Annahmen oder nicht verifizierte Formulierungen werden nicht in die Evidenz aufgenommen.
+
+Die fachliche Bewertung erfolgt erst nach Abschluss der Quellenprüfung und – sofern erforderlich – nach Durchführung des zugehörigen Praxistests.

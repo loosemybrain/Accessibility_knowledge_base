@@ -12,7 +12,7 @@
 
 ---
 
-# 1 Zweck
+## 1 Zweck
 
 Diese Dokumentationsrichtlinie definiert die verbindlichen Standards für die Erstellung, Pflege und Veröffentlichung aller Inhalte der Accessibility Knowledge Base.
 
@@ -22,7 +22,7 @@ Die Richtlinie stellt sicher, dass sämtliche Dokumente unabhängig von Autor od
 
 ---
 
-# 2 Geltungsbereich
+## 2 Geltungsbereich
 
 Diese Richtlinie gilt für sämtliche Dokumente der Accessibility Knowledge Base.
 
@@ -43,7 +43,7 @@ Abweichungen von dieser Richtlinie sind ausschließlich nach dokumentierter Proj
 
 ---
 
-# 3 Leitbild
+## 3 Leitbild
 
 Die Accessibility Knowledge Base verfolgt das Ziel, eine fachlich belastbare Wissensplattform zur digitalen Barrierefreiheit bereitzustellen.
 
@@ -53,7 +53,7 @@ Die Accessibility Knowledge Base versteht sich nicht als Sammlung einzelner Doku
 
 ---
 
-# 4 Leitprinzipien
+## 4 Leitprinzipien
 
 Für sämtliche Dokumente gelten folgende Leitprinzipien:
 
@@ -68,7 +68,7 @@ Für sämtliche Dokumente gelten folgende Leitprinzipien:
 
 ---
 
-# 5 Dokumentationsgrundsätze
+## 5 Dokumentationsgrundsätze
 
 Für alle Inhalte gelten folgende Grundsätze:
 
@@ -83,7 +83,7 @@ Für alle Inhalte gelten folgende Grundsätze:
 
 ---
 
-# 6 Sprache
+## 6 Sprache
 
 Alle Dokumente werden in einer sachlichen, neutralen und verständlichen Sprache erstellt.
 
@@ -93,7 +93,7 @@ Die Dokumentation orientiert sich am Sprachstil technischer Richtlinien und beh�
 
 ---
 
-# 7 Pflege
+## 7 Pflege
 
 Die Accessibility Knowledge Base wird kontinuierlich weiterentwickelt.
 
@@ -103,7 +103,7 @@ Jede Änderung muss fachlich überprüfbar sein.
 
 ---
 
-# 8 Verbindlichkeit
+## 8 Verbindlichkeit
 
 Diese Dokumentationsrichtlinie bildet die Grundlage sämtlicher weiterer Governance-Dokumente der Accessibility Knowledge Base.
 

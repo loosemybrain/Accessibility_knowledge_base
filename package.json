@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "akb:validate": "node tools/validate-markdown.js",
+    "akb:insert": "node tools/insert-section.js",
+    "akb:phase": "node tools/create-phase-report.js"
+  }
+}
