@@ -204,3 +204,29 @@ Abweichungen sind ausschließlich nach dokumentierter Projektentscheidung zuläs
 > Ist für eine fachliche Aussage keine belastbare Quelle verfügbar und kann diese auch nicht reproduzierbar getestet werden, wird auf eine Veröffentlichung verzichtet.
 >
 > Eine offene Fragestellung ist einer unbelegten Aussage grundsätzlich vorzuziehen.
+
+---
+
+## Evidenzprinzip
+
+Jede fachliche Aussage innerhalb der Accessibility Knowledge Base wird einer eindeutigen Evidenz zugeordnet.
+
+Eine Evidenz dokumentiert genau eine fachliche Aussage.
+
+Sie besteht aus den folgenden Bestandteilen:
+
+- dokumentierte Herstellerinformation,
+- Quellenzuordnung,
+- gegebenenfalls reproduzierbarer Praxistest,
+- fachliche Bewertung,
+- Ergebnis.
+
+Eine Evidenz darf erst dann als freigegeben gekennzeichnet werden, wenn sämtliche erforderlichen Nachweise vollständig dokumentiert wurden.
+
+## Praxistests
+
+Nicht jede Evidenz erfordert einen Praxistest.
+
+Ist ein Praxistest fachlich nicht sinnvoll oder nicht durchführbar, ist dies innerhalb der Evidenz nachvollziehbar zu begründen.
+
+Die Begründung ist Bestandteil der Evidenz und ersetzt den Praxistest nicht, sondern dokumentiert dessen bewussten Verzicht.

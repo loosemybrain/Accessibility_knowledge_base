@@ -1,5 +1,9 @@
 # Kapitel-Steckbrief – Kapitel 5: Barrierefreiheit
 
+## 1 Allgemeine Informationen
+
+### 1.1 Metadaten
+
 | Eigenschaft | Wert |
 |-------------|------|
 | Referenzhandbuch | AKB-200 – SAP GUI for Windows |
@@ -8,34 +12,30 @@
 | Status | In Bearbeitung |
 | Verantwortlich | |
 | Letzte Aktualisierung | 01.07.2026 |
-| Version | 0.1 |
+| Version | 1.0 |
 
 ---
 
-## 1 Ziel
+## 2 Kapitelplanung
+
+### 2.1 Ziel
 
 Beschreibung der barrierefreien Funktionen der SAP GUI for Windows sowie deren Konfiguration und Auswirkungen auf die Nutzung mit assistiven Technologien.
 
----
-
-## 2 Zielgruppe
+### 2.2 Zielgruppe
 
 - Anwenderinnen und Anwender
 - Administratorinnen und Administratoren
 - Accessibility-Verantwortliche
 - Support
 
----
-
-## 3 Voraussetzungen
+### 2.3 Voraussetzungen
 
 - SAP GUI for Windows installiert
 - Unterstützte Produktversion bekannt
 - Berechtigung zur Änderung der SAP GUI-Optionen
 
----
-
-## 4 Kapitelstruktur
+### 2.4 Kapitelstruktur
 
 | Abschnitt | Bearbeitungsstatus |
 |------------|--------------------|
@@ -53,17 +53,17 @@ Beschreibung der barrierefreien Funktionen der SAP GUI for Windows sowie deren K
 
 ---
 
-## 5 Forschungsstand – Accessibility Mode
+## 3 Recherche
 
-### Bearbeitungsstatus
+### 3.1 Forschungsstand – Accessibility Mode
+
+#### 3.1.1 Bearbeitungsstatus
 
 Recherche in Bearbeitung.
 
 Der Abschnitt wird erst erstellt, wenn sämtliche fachlichen Aussagen durch Primärquellen oder reproduzierbare Praxistests abgesichert wurden.
 
----
-
-### Durch Praxistests bestätigt
+#### 3.1.2 Durch Praxistests bestätigt
 
 | Aussage | Status | Bemerkung |
 |----------|--------|-----------|
@@ -72,9 +72,7 @@ Der Abschnitt wird erst erstellt, wenn sämtliche fachlichen Aussagen durch Prim
 | Nach der Aktivierung stehen zusätzliche Optionen im Bereich „Barrierefreiheit“ zur Verfügung. | Bestätigt | Eigener Praxistest |
 | Die SAP Screen Reader Extensions sind Bestandteil der SAP GUI-Installation. | Bestätigt | Eigener Praxistest |
 
----
-
-### Noch durch Herstellerdokumentation zu verifizieren
+#### 3.1.3 Noch durch Herstellerdokumentation zu verifizieren
 
 | Fragestellung | Status |
 |---------------|--------|
@@ -84,18 +82,7 @@ Der Abschnitt wird erst erstellt, wenn sämtliche fachlichen Aussagen durch Prim
 | Welche Auswirkungen bestehen auf verschiedene Themes? | Offen |
 | Welche Aussagen trifft SAP offiziell zur Unterstützung assistiver Technologien? | Offen |
 
----
-
-### Benötigte Primärquellen
-
-- SAP GUI Administration Guide
-- SAP GUI Installation Guide
-- SAP Help Portal
-- SAP Notes (falls relevant)
-
----
-
-### Geplante Praxistests
+#### 3.1.4 Geplante Praxistests
 
 - Vergleich Accessibility Mode aktiviert/deaktiviert
 - Vergleich Classic Theme und Quartz Theme
@@ -104,13 +91,13 @@ Der Abschnitt wird erst erstellt, wenn sämtliche fachlichen Aussagen durch Prim
 - Test mit NVDA
 - Test mit Windows Narrator
 
----
-
-### Offene Entscheidungen
+#### 3.1.5 Offene Entscheidungen
 
 Der Fließtext zu Abschnitt „Accessibility Mode“ wird erst erstellt, nachdem die Herstellerdokumentation ausgewertet und mit den Ergebnissen der Praxistests abgeglichen wurde.
 
-## 6 Evidenzmatrix
+---
+
+### 3.2 Evidenzmatrix
 
 | Aussage | Quelle vorhanden | Praxistest vorhanden | Status |
 |----------|------------------|----------------------|--------|
@@ -123,7 +110,48 @@ Der Fließtext zu Abschnitt „Accessibility Mode“ wird erst erstellt, nachdem
 
 ---
 
-## 7 Primärquellen
+### 3.3 Rechercheprotokoll
+
+#### 3.3.1 Ziel der Recherche
+
+Ermittlung belastbarer Herstellerinformationen zum Accessibility Mode der SAP GUI for Windows.
+
+#### 3.3.2 Recherchefragen
+
+| Nr. | Fragestellung | Status |
+|-----|---------------|--------|
+| R-001 | Wie definiert SAP den Accessibility Mode? | Offen |
+| R-002 | Wie wird der Accessibility Mode aktiviert? | Offen |
+| R-003 | Ab wann werden Änderungen wirksam? | Offen |
+| R-004 | Welche Funktionen werden aktiviert oder verändert? | Offen |
+| R-005 | Welche assistiven Technologien werden offiziell unterstützt? | Offen |
+| R-006 | Welche bekannten Einschränkungen dokumentiert SAP? | Offen |
+
+#### 3.3.3 Suchstrategie
+
+Die Recherche erfolgt ausschließlich anhand folgender Quellenarten:
+
+1. SAP Help Portal
+2. SAP GUI Administration Guide
+3. SAP GUI Installation Guide
+4. SAP Notes (bei Bedarf)
+5. Eigene reproduzierbare Praxistests
+
+Sekundärquellen werden nur verwendet, wenn Primärquellen keine ausreichenden Informationen enthalten.
+
+#### 3.3.4 Rechercheergebnisse
+
+Noch keine Einträge vorhanden.
+
+#### 3.3.5 Offene Punkte
+
+Alle Recherchefragen sind noch zu bearbeiten.
+
+---
+
+## 4 Quellen
+
+### 4.1 Primärquellen
 
 | Quelle | Dokumentversion | Kapitel | Abrufdatum | Status |
 |---------|-----------------|----------|------------|--------|
@@ -132,9 +160,11 @@ Der Fließtext zu Abschnitt „Accessibility Mode“ wird erst erstellt, nachdem
 | SAP Help Portal | | | | Recherche erforderlich |
 | SAP Notes | | | | Recherche erforderlich |
 
-### 7.1 Quellenbasis – Accessibility Mode
+---
 
-#### Primärquellen
+### 4.2 Quellenbasis – Accessibility Mode
+
+#### 4.2.1 Primärquellen
 
 | Quelle | Zweck | Status |
 |---------|-------|--------|
@@ -143,24 +173,18 @@ Der Fließtext zu Abschnitt „Accessibility Mode“ wird erst erstellt, nachdem
 | SAP Help Portal | Offizielle Produktdokumentation | Offen |
 | SAP Notes | Dokumentation bekannter Fehler und Einschränkungen | Offen |
 
-#### Sekundärquellen
+#### 4.2.2 Sekundärquellen
 
 Derzeit keine.
 
-Sekundärquellen werden nur verwendet, wenn die entsprechende Information nicht durch Primärquellen oder eigene Praxistests belegt werden kann.
-
-#### Eigene Praxistests
-
-Folgende Erkenntnisse wurden bereits reproduzierbar getestet:
+#### 4.2.3 Eigene Praxistests
 
 - Aktivierung des Accessibility Mode
-- Erforderlicher Neustart von SAP Logon
-- Sichtbarkeit zusätzlicher Einstellungen
-- Vorhandensein der SAP Screen Reader Extensions
+- Neustart nach Aktivierung
+- Zusätzliche Einstellungen
+- SAP Screen Reader Extensions
 
-Diese Ergebnisse sind vor der Veröffentlichung nochmals gegen die Herstellerdokumentation abzugleichen.
-
-#### Offene Recherchepunkte
+#### 4.2.4 Offene Recherchepunkte
 
 - Offizielle Definition des Accessibility Mode
 - Auswirkungen auf die Benutzeroberfläche
@@ -171,20 +195,9 @@ Diese Ergebnisse sind vor der Veröffentlichung nochmals gegen die Herstellerdok
 
 ---
 
-## 8 Gesetzliche und normative Grundlagen
+## 5 Praxistests
 
-| Quelle | Version | Status |
-|---------|----------|--------|
-| BITV 2.0 | | Recherche erforderlich |
-| EN 301 549 | | Recherche erforderlich |
-| WCAG 2.2 | | Recherche erforderlich |
-| BGG | | Recherche erforderlich |
-
----
-
-## 9 Geplante Praxistests
-
-### Testumgebung
+### 5.1 Testumgebung
 
 | Eigenschaft | Wert |
 |-------------|------|
@@ -195,7 +208,9 @@ Diese Ergebnisse sind vor der Veröffentlichung nochmals gegen die Herstellerdok
 | Screenreader | |
 | Weitere Software | |
 
-### Testfälle
+---
+
+### 5.2 Testfälle
 
 | Test | Status |
 |------|--------|
@@ -210,7 +225,9 @@ Diese Ergebnisse sind vor der Veröffentlichung nochmals gegen die Herstellerdok
 
 ---
 
-## 10 Benötigte Screenshots
+## 6 Bilddokumentation
+
+### 6.1 Benötigte Screenshots
 
 | ID | Kapitel | Beschreibung | Status |
 |----|----------|--------------|--------|
@@ -223,7 +240,9 @@ Diese Ergebnisse sind vor der Veröffentlichung nochmals gegen die Herstellerdok
 
 ---
 
-## 11 Offene Fragestellungen
+## 7 Offene Punkte
+
+### 7.1 Offene Fragestellungen
 
 | Priorität | Fragestellung | Status |
 |-----------|---------------|--------|
@@ -235,9 +254,9 @@ Diese Ergebnisse sind vor der Veröffentlichung nochmals gegen die Herstellerdok
 
 ---
 
-## 12 Veröffentlichungen
+## 8 Veröffentlichungen
 
-### Geplante Confluence-Seiten
+### 8.1 Geplante Confluence-Seiten
 
 - Accessibility Mode
 - SAP Screen Reader Extensions
@@ -245,7 +264,7 @@ Diese Ergebnisse sind vor der Veröffentlichung nochmals gegen die Herstellerdok
 - Screenreader
 - Tastaturbedienung
 
-### Weitere Veröffentlichungen
+### 8.2 Weitere Veröffentlichungen
 
 - Referenzhandbuch
 - Microsoft Word
@@ -253,10 +272,10 @@ Diese Ergebnisse sind vor der Veröffentlichung nochmals gegen die Herstellerdok
 
 ---
 
-## 13 Reviewstatus
+## 9 Reviewstatus
 
 | Prüfschritt | Status |
-|--------------|--------|
+|-------------|--------|
 | Steckbrief erstellt | Offen |
 | Recherche abgeschlossen | Offen |
 | Quellen geprüft | Offen |

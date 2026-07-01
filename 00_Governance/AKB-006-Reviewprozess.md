@@ -113,7 +113,51 @@ Vor der Veröffentlichung wird kontrolliert,
 
 ---
 
-## 9 Abschlussprüfung
+## 9 Evidenzfreigabe
+
+Vor der Übernahme einer fachlichen Aussage in ein Referenzhandbuch ist die zugehörige Evidenz vollständig zu prüfen.
+
+Folgende Kriterien müssen erfüllt sein:
+
+- Primärquellen vollständig dokumentiert,
+- Quellen geprüft,
+- erforderliche Praxistests abgeschlossen,
+- fachliche Bewertung abgeschlossen,
+- Ergebnis dokumentiert.
+
+Erst nach erfolgreicher Evidenzfreigabe darf die Aussage in das Referenzhandbuch übernommen werden.
+
+---
+
+## 10 Aktualisierung bestehender Evidenzen
+
+Ändert sich eine Herstellerdokumentation, Norm oder Softwareversion, wird ausschließlich die betroffene Evidenz aktualisiert.
+
+Anschließend ist zu prüfen, ob:
+
+- der zugehörige Praxistest weiterhin gültig ist,
+- die fachliche Bewertung angepasst werden muss,
+- Auswirkungen auf veröffentlichte Kapitel bestehen.
+
+Die Aktualisierung erfolgt nachvollziehbar und versionsgeführt.
+
+---
+
+## 11 Aktualisierung bestehender Evidenzen
+
+Ändert sich eine Herstellerdokumentation, Norm oder Softwareversion, wird ausschließlich die betroffene Evidenz aktualisiert.
+
+Anschließend ist zu prüfen, ob:
+
+- der zugehörige Praxistest weiterhin gültig ist,
+- die fachliche Bewertung angepasst werden muss,
+- Auswirkungen auf veröffentlichte Kapitel bestehen.
+
+Die Aktualisierung erfolgt nachvollziehbar und versionsgeführt.
+
+---
+
+## 12 Abschlussprüfung
 
 Vor der Veröffentlichung erfolgt eine abschließende Gesamtprüfung.
 
@@ -128,7 +172,7 @@ Dabei wird insbesondere geprüft,
 
 ---
 
-## 10 Freigabe
+## 13 Freigabe
 
 Ein Dokument gilt als veröffentlichungsreif, wenn
 
@@ -138,7 +182,7 @@ Ein Dokument gilt als veröffentlichungsreif, wenn
 
 ---
 
-## 11 Änderungsprüfung
+## 14 Änderungsprüfung
 
 Nach jeder inhaltlichen Änderung ist zu prüfen,
 
@@ -154,7 +198,7 @@ Insbesondere gilt dies bei:
 
 ---
 
-## 12 Verbindlichkeit
+## 15 Verbindlichkeit
 
 Dieser Reviewprozess ist für sämtliche Dokumente der Accessibility Knowledge Base verbindlich.
 
