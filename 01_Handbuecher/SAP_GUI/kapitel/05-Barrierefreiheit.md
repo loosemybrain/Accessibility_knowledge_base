@@ -22,39 +22,28 @@ Die nachfolgenden Abschnitte erläutern die einzelnen Funktionen, ihre Konfigura
 
 ## 5.2 Accessibility Mode
 
-### Zweck
+Der Accessibility Mode ist Bestandteil der SAP GUI for Windows und unterstützt eine barrierefreie Nutzung der Anwendung.
 
-Der Accessibility Mode unterstützt die barrierearme Nutzung der SAP GUI for Windows und bildet die Grundlage für die Zusammenarbeit mit unterstützenden Technologien.
+Er ist insbesondere für den Einsatz assistiver Technologien vorgesehen und bildet die Grundlage für verschiedene Funktionen zur verbesserten Zugänglichkeit.
 
-Die Aktivierung des Accessibility Mode verändert bestimmte Eigenschaften der Benutzeroberfläche und stellt zusätzliche Konfigurationsmöglichkeiten für die barrierefreie Nutzung bereit.
+### 5.2.1 Aktivierung
 
-### Zielgruppe
+Der Accessibility Mode wird in den SAP-GUI-Optionen aktiviert.
 
-Der Accessibility Mode richtet sich insbesondere an:
+Der Menüpfad lautet:
 
-- Anwenderinnen und Anwender assistiver Technologien,
-- Administratorinnen und Administratoren,
-- Support- und Servicemitarbeitende,
-- Verantwortliche für digitale Barrierefreiheit.
+`Accessibility & Scripting → Accessibility`
 
-### Voraussetzungen
+Dort wird die Option `Use Accessibility Mode` aktiviert.
 
-Für die Nutzung des Accessibility Mode gelten folgende Voraussetzungen:
+### 5.2.2 Neustartverhalten
 
-- SAP GUI for Windows ist installiert.
-- Die lokalen SAP-GUI-Optionen können bearbeitet werden.
-- Änderungen an den Einstellungen werden erst nach einem Neustart von SAP Logon beziehungsweise SAP Logon Pad wirksam.
+Eine Änderung am Accessibility Mode wird erst nach einem Neustart von SAP Logon beziehungsweise SAP Logon Pad wirksam.
 
-### Inhalt des Abschnitts
+Dies betrifft sowohl die Aktivierung als auch die Deaktivierung des Accessibility Mode.
 
-Der folgende Abschnitt beschreibt:
+### 5.2.3 Weiterführende Informationen
 
-- Aktivierung des Accessibility Mode,
-- verfügbare Einstellungen,
-- Auswirkungen auf die Benutzeroberfläche,
-- Unterstützung assistiver Technologien,
-- bekannte Einschränkungen,
-- Empfehlungen für den produktiven Einsatz.
+Dieses Kapitel beschreibt ausschließlich den Accessibility Mode.
 
-> [!NOTE]
-> Fachliche Aussagen zu den Auswirkungen des Accessibility Mode auf einzelne Funktionen werden erst aufgenommen, nachdem sie durch Herstellerdokumentation oder reproduzierbare Praxistests bestätigt wurden.
+Weiterführende Informationen zu den Einstellungen zur Barrierefreiheit, unterstützten Screenreadern und SAP Screen Reader Extensions werden in den folgenden Unterkapiteln behandelt.

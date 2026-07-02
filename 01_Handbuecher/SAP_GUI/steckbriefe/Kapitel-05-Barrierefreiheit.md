@@ -41,7 +41,7 @@ Beschreibung der barrierefreien Funktionen der SAP GUI for Windows sowie deren K
 |------------|--------------------|
 | Überblick | In Bearbeitung |
 | Accessibility Mode | Geplant |
-| Einstellungen zur Barrierefreiheit | Geplant |
+| Einstellungen zur Barrierefreiheit | Vorbereitung abgeschlossen |
 | SAP Screen Reader Extensions | Geplant |
 | Unterstützte Screenreader | Geplant |
 | Tastaturunterstützung | Geplant |
@@ -146,6 +146,17 @@ Noch keine Einträge vorhanden.
 #### 3.3.5 Offene Punkte
 
 Alle Recherchefragen sind noch zu bearbeiten.
+
+---
+
+### 3.4 Themenpaket 5.3 - Einstellungen zur Barrierefreiheit
+
+| Eigenschaft | Wert |
+|-------------|------|
+| Abschnitt | 5.3 Einstellungen zur Barrierefreiheit |
+| Recherche | ACC-002 |
+| Praxistest | PT-002 |
+| Bearbeitungsstatus | Vorbereitung abgeschlossen |
 
 ---
 

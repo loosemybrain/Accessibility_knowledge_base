@@ -94,7 +94,7 @@ Nicht verwendet werden:
 - Vermutungen
 - nicht nachvollziehbare Internetquellen
 - anonyme Beiträge
-- KI-generierte Inhalte ohne Quellenprüfung
+- durch Automatisierungsagenten erzeugte Inhalte ohne Quellenprüfung
 
 ---
 

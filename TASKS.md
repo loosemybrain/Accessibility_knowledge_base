@@ -2,7 +2,7 @@
 
 ## 1 Zweck
 
-Diese Datei definiert das Standardformat für Arbeitsaufträge an Codex innerhalb der Accessibility Knowledge Base.
+Diese Datei definiert das Standardformat für Arbeitsaufträge an den Automatisierungsagenten innerhalb der Accessibility Knowledge Base.
 
 Jeder Task muss klein, eindeutig und prüfbar sein.
 
@@ -87,7 +87,7 @@ Scope:
 Nur die angegebene Recherchedatei ändern.
 
 Dateien:
-01_Handbuecher/SAP_GUI/quellen/ACC-001-Accessibility-Mode.md
+01_Handbuecher/<Handbuch>/quellen/<Recherchedatei>.md
 
 Aktion:
 Abschnitt ersetzen
@@ -128,7 +128,7 @@ Scope:
 Nur neue Praxistestdatei erstellen.
 
 Dateien:
-01_Handbuecher/SAP_GUI/praxistests/PT-001-Accessibility-Mode-Aktivierung.md
+01_Handbuecher/<Handbuch>/praxistests/<Praxistestdatei>.md
 
 Aktion:
 Neue Datei anlegen
@@ -281,10 +281,10 @@ Task-ID:
 AKB-TASK-....
 
 Phase:
-Tooling Foundation
+Automatisierung
 
 Sprint:
-AKB CLI Foundation
+AKB CLI
 
 Ziel:
 AKB CLI um einen klar abgegrenzten Command erweitern.

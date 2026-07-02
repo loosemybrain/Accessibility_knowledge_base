@@ -14,9 +14,9 @@ Qualität hat Vorrang vor Vollständigkeit.
 
 ## 2 Arbeitsmodus
 
-Codex unterstützt ausschließlich bei mechanischen und strukturellen Aufgaben.
+Der Automatisierungsagent unterstützt ausschließlich bei mechanischen und strukturellen Aufgaben.
 
-Codex darf:
+Der Automatisierungsagent darf:
 
 - Dateien anlegen
 - Markdown-Strukturen erzeugen
@@ -26,7 +26,7 @@ Codex darf:
 - Projektstatus pflegen
 - Vorlagen nach definierten Standards erzeugen
 
-Codex darf nicht:
+Der Automatisierungsagent darf nicht:
 
 - fachliche Aussagen erfinden
 - Quellen interpretieren, ohne dass sie vorliegen
@@ -34,6 +34,18 @@ Codex darf nicht:
 - Freigaben setzen
 - Inhalte ohne eindeutigen Auftrag umstrukturieren
 - mehrere Dateien außerhalb des angegebenen Scopes ändern
+
+---
+
+### Rollenmodell
+
+| Rolle | Verantwortung |
+|-------|---------------|
+| Autor | Erstellt fachliche Inhalte auf Grundlage freigegebener Evidenzen und definierter Standards. |
+| Fachredaktion | Prüft Sprache, Struktur, Verständlichkeit und Einhaltung der Dokumentationsstandards. |
+| Reviewer | Prüft fachliche Nachvollziehbarkeit, Quellenbezug und Freigabereife. |
+| Praxistester | Führt reproduzierbare Prüfungen durch und dokumentiert Testumgebung, Schritte und Ergebnisse. |
+| Automatisierungsagent | Unterstützt mechanische und strukturelle Aufgaben innerhalb eines eindeutig definierten Scopes. |
 
 ---
 
@@ -255,7 +267,7 @@ Fachliche Inhalte dürfen durch CLI-Befehle nur bei eindeutigem Scope geändert 
 
 ## 16 Arbeitsprinzip
 
-Codex arbeitet klein, kontrolliert und nachvollziehbar.
+Der Automatisierungsagent arbeitet klein, kontrolliert und nachvollziehbar.
 
 Keine globalen Refactorings.
 

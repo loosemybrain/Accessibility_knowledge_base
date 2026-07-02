@@ -156,9 +156,9 @@ Der Redaktionsleitfaden wird regelmäßig überprüft und bei Bedarf angepasst.
 Änderungen erfolgen versioniert und nachvollziehbar.
 
 > [!IMPORTANT]
-> **Qualitätssicherung bei KI-gestützter Dokumentation**
+> **Qualitätssicherung bei automatisierungsgestützter Dokumentation**
 >
-> KI-gestützte Entwürfe dienen ausschließlich als Arbeitsgrundlage und unterstützen die redaktionelle Erstellung von Dokumenten.
+> Durch Automatisierungsagenten unterstützte Entwürfe dienen ausschließlich als Arbeitsgrundlage und unterstützen die redaktionelle Erstellung von Dokumenten.
 >
 > Vor einer Veröffentlichung sind sämtliche fachlichen Aussagen anhand der **Dokumentationsrichtlinie (AKB-001)** sowie der **Quellenrichtlinie (AKB-003)** zu prüfen und zu verifizieren.
 >

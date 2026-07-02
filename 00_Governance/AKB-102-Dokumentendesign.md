@@ -92,7 +92,7 @@ Alle weiteren Veröffentlichungen leiten sich von dieser Referenz ab.
 
 Die Dokumentation verwendet eine sachliche, präzise und verständliche Sprache.
 
-Unklare Formulierungen, werbliche Aussagen sowie KI-typische Ausdrucksweisen sind zu vermeiden.
+Unklare Formulierungen, werbliche Aussagen sowie automatisierungstypische Ausdrucksweisen sind zu vermeiden.
 
 ---
 

@@ -36,8 +36,8 @@ Fachliche Inhalte des Referenzhandbuchs wurden nicht als Ziel dieser Phase behan
 
 | Dokument | Zweck |
 |----------|-------|
-| AGENTS.md | Arbeitsregeln für Codex und mechanische Projektarbeit |
-| TASKS.md | Standardisiertes Task-Format für Codex-Aufträge |
+| AGENTS.md | Arbeitsregeln für den Automatisierungsagenten und mechanische Projektarbeit |
+| TASKS.md | Standardisiertes Task-Format für Aufträge an den Automatisierungsagenten |
 | tools/create-phase-report.js | Generator für Phasenberichte nach PHS-1.0 |
 
 ---
@@ -94,7 +94,7 @@ Fachliche Praxistests bleiben handbuchbezogen unter:
 
 ## 10 Erreichte Meilensteine
 
-- Codex erfolgreich in den AKB-Workflow integriert.
+- Automatisierungsagent erfolgreich in den AKB-Workflow integriert.
 - Markdown-Validierung eingeführt.
 - Abschnittsbasierte Markdown-Bearbeitung implementiert.
 - PHS-1.0 eingeführt.
@@ -109,7 +109,7 @@ Folgende mechanische Aufgaben sind vorbereitet:
 - Markdown-Validierung
 - Abschnittsbasiertes Ergänzen oder Ersetzen
 - Phasenbericht-Erzeugung
-- standardisierte Codex-Tasks
+- standardisierte Aufgaben für den Automatisierungsagenten
 
 ---
 

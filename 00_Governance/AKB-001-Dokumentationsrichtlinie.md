@@ -68,6 +68,18 @@ Für sämtliche Dokumente gelten folgende Leitprinzipien:
 
 ---
 
+## Werkzeugneutralität
+
+Die Standards der Accessibility Knowledge Base beschreiben ausschließlich Prozesse, Rollen und Verantwortlichkeiten.
+
+Sie beschreiben keine konkreten Softwareprodukte oder Hersteller.
+
+Werkzeuge gelten als austauschbare Implementierungen.
+
+Ein Wechsel der verwendeten Werkzeuge darf keine Änderung der Governance, Methodik oder Dokumentationsstandards erforderlich machen.
+
+---
+
 ## 5 Dokumentationsgrundsätze
 
 Für alle Inhalte gelten folgende Grundsätze:

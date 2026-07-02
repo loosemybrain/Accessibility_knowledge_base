@@ -25,8 +25,11 @@ Es dokumentiert den aktuellen Projektfortschritt, den Bearbeitungsstand der Doku
 |-------------|------|
 | Projektphase | Phase 3 – Fachliche Dokumentation |
 | Aktueller Sprint | Sprint 3.7 |
-| Aktuelles Arbeitspaket | ACC-001 – Accessibility Mode |
-| Nächstes Arbeitspaket | ACC-001-E03 – Neustartverhalten |
+| Aktuelles Themenpaket | Kapitel 5.3 - Einstellungen zur Barrierefreiheit |
+| Aktuelle Recherche | ACC-002 |
+| Aktueller Praxistest | PT-002 |
+| Status | Vorbereitung abgeschlossen |
+| Nächster Arbeitsschritt | Recherche Herstellerdokumentation |
 
 ---
 
