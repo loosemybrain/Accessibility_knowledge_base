@@ -34,6 +34,18 @@
 
 ### 3.1 Evidenz ACC-001-E01
 
+#### Evidenzstatus
+
+| Eigenschaft | Wert |
+|-------------|------|
+| Evidenz-ID | ACC-001-E01 |
+| Status | Verifiziert |
+| Herstellerquelle | Ja |
+| Praxistest | Nein |
+| Referenzhandbuch | Freigegeben |
+
+---
+
 #### Fragestellung
 
 Wie definiert SAP den Accessibility Mode der SAP GUI for Windows?
@@ -57,6 +69,7 @@ Der Accessibility Mode dient der Unterstützung einer barrierefreien Nutzung der
 | Eigenschaft | Wert |
 |-------------|------|
 | Dokument | SAP Help Portal – Accessibility in SAP GUI for Windows |
+| Produkt | SAP GUI for Windows |
 | Dokumentversion | SAP Help Portal |
 | Kapitel | Accessibility in SAP GUI for Windows |
 | Abschnitt | Accessibility Mode |
@@ -103,6 +116,18 @@ Die folgende Aussage kann in das Referenzhandbuch übernommen werden:
 
 ### 3.2 Evidenz ACC-001-E02
 
+#### Evidenzstatus
+
+| Eigenschaft | Wert |
+|-------------|------|
+| Evidenz-ID | ACC-001-E02 |
+| Status | Verifiziert |
+| Herstellerquelle | Ja |
+| Praxistest | Ja |
+| Referenzhandbuch | Freigegeben |
+
+---
+
 #### Fragestellung
 
 Wie wird der Accessibility Mode der SAP GUI for Windows aktiviert?
@@ -130,6 +155,7 @@ SAP dokumentiert, dass die Aktivierung oder Deaktivierung des Accessibility Mode
 | Eigenschaft | Wert |
 |-------------|------|
 | Dokument | SAP Help Portal – Accessibility in SAP GUI for Windows |
+| Produkt | SAP GUI for Windows |
 | Dokumentversion | SAP Help Portal |
 | Kapitel | Accessibility in SAP GUI for Windows |
 | Abschnitt | Use Accessibility Mode |
@@ -174,7 +200,85 @@ Die Evidenz kann in das Referenzhandbuch übernommen werden.
 
 ### 3.3 Evidenz ACC-001-E03
 
-Für weitere fachliche Aussagen reserviert.
+#### Evidenzstatus
+
+| Eigenschaft | Wert |
+|-------------|------|
+| Evidenz-ID | ACC-001-E03 |
+| Status | Verifiziert |
+| Herstellerquelle | Ja |
+| Praxistest | Ja |
+| Referenzhandbuch | Freigegeben |
+
+---
+
+#### Fragestellung
+
+Wann werden Änderungen am Accessibility Mode wirksam?
+
+#### Ziel
+
+Dokumentation des Neustartverhaltens nach Änderungen am Accessibility Mode.
+
+---
+
+#### Dokumentierte Herstellerinformation
+
+SAP beschreibt, dass Änderungen am Accessibility Mode erst nach einem Neustart von SAP Logon beziehungsweise SAP Logon Pad wirksam werden.
+
+---
+
+#### Quellenzuordnung
+
+| Eigenschaft | Wert |
+|-------------|------|
+| Dokument | SAP Help Portal – Accessibility in SAP GUI for Windows |
+| Produkt | SAP GUI for Windows |
+| Dokumentversion | SAP Help Portal |
+| Kapitel | Accessibility in SAP GUI for Windows |
+| Abschnitt | Use Accessibility Mode |
+| URL | SAP Help Portal |
+| Abrufdatum | 01.07.2026 |
+
+---
+
+#### Eigene Praxistests
+
+| Test-ID | Dokument | Status |
+|----------|----------|--------|
+| PT-001 | PT-001-Accessibility-Mode-Aktivierung.md | Abgeschlossen |
+
+Der Praxistest bestätigt das dokumentierte Verhalten.
+
+Während des Tests erscheint zusätzlich ein Hinweisdialog, der den erforderlichen Neustart ankündigt.
+
+---
+
+#### Interpretation
+
+Die Herstellerdokumentation beschreibt eindeutig, dass Änderungen am Accessibility Mode erst nach einem Neustart wirksam werden.
+
+Der Praxistest bestätigt dieses Verhalten.
+
+Der zusätzlich beobachtete Hinweisdialog ergänzt die Herstellerinformation, ohne ihr zu widersprechen.
+
+---
+
+#### Fachliche Bewertung
+
+Zwischen Herstellerdokumentation und reproduzierbarem Praxistest wurden keine Abweichungen festgestellt.
+
+Die Aussage kann als fachlich verifiziert betrachtet werden.
+
+---
+
+#### Ergebnis
+
+Status: Verifiziert.
+
+Die folgende Aussage kann in das Referenzhandbuch übernommen werden:
+
+- Änderungen am Accessibility Mode werden erst nach einem Neustart von SAP Logon beziehungsweise SAP Logon Pad wirksam.
 
 ---
 

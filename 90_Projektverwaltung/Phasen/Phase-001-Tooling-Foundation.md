@@ -10,6 +10,9 @@
 | Projekt | Accessibility Knowledge Base |
 | Abschlussdatum | 01.07.2026 |
 | Standard | PHS-1.0 |
+| Zeitraum | 30.06.2026 – 01.07.2026 |
+| Vorgänger | — |
+| Nachfolger | Phase 002 – Fachliche Dokumentation |
 
 ---
 
@@ -65,9 +68,9 @@ Keine neuen Praxistests in dieser Phase.
 
 ## 8 Neue Standards
 
-| Standard | Zweck | Status |
-|----------|-------|--------|
-| PHS-1.0 | Phasen- und Projekthistorie | Aktiv |
+| Standard | Version | Status |
+|----------|---------|--------|
+| PHS | 1.0 | Eingeführt |
 
 ---
 
@@ -89,7 +92,17 @@ Fachliche Praxistests bleiben handbuchbezogen unter:
 
 ---
 
-## 10 Automatisierungsgrad
+## 10 Erreichte Meilensteine
+
+- Codex erfolgreich in den AKB-Workflow integriert.
+- Markdown-Validierung eingeführt.
+- Abschnittsbasierte Markdown-Bearbeitung implementiert.
+- PHS-1.0 eingeführt.
+- Tooling Foundation abgeschlossen.
+
+---
+
+## 11 Automatisierungsgrad
 
 Folgende mechanische Aufgaben sind vorbereitet:
 
@@ -100,7 +113,7 @@ Folgende mechanische Aufgaben sind vorbereitet:
 
 ---
 
-## 11 Lessons Learned
+## 12 Lessons Learned
 
 Projektverwaltungsdokumente sollten nicht zwischen fachlichen Dokumenten abgelegt werden.
 
@@ -110,7 +123,7 @@ Die Trennung von Governance, Projektverwaltung, Quellen, Praxistests und Kapitel
 
 ---
 
-## 12 Offene Punkte
+## 13 Offene Punkte
 
 | Punkt | Status |
 |-------|--------|
@@ -120,7 +133,7 @@ Die Trennung von Governance, Projektverwaltung, Quellen, Praxistests und Kapitel
 
 ---
 
-## 13 Risiken
+## 14 Risiken
 
 | Risiko | Bewertung |
 |--------|-----------|
@@ -130,10 +143,10 @@ Die Trennung von Governance, Projektverwaltung, Quellen, Praxistests und Kapitel
 
 ---
 
-## 14 Nächste Phase
+## 15 Nächste Phase
 
-Phase 3 – Fachliche Dokumentation wird fortgesetzt.
+Phase 002 – Fachliche Dokumentation
 
-Nächster fachlicher Sprint:
+Erster Sprint:
 
 ACC-001-E03 – Neustartverhalten nach Aktivierung oder Deaktivierung des Accessibility Mode.

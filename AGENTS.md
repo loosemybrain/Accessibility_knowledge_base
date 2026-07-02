@@ -233,7 +233,27 @@ Jede Phase besitzt dieselbe Struktur.
 
 ---
 
-## 14 Arbeitsprinzip
+## 14 Automatische Projektstatuspflege
+
+Projektstatus darf ausschließlich über `tools/update-project-status.js` automatisiert geändert werden.
+
+Manuelle Änderungen sollen auf Ausnahmefälle beschränkt bleiben.
+
+---
+
+## 15 AKB CLI
+
+Die CLI ist der zentrale Einstiegspunkt für AKB-Tooling.
+
+Bestehende Einzelskripte bleiben vorerst aus Kompatibilitätsgründen erhalten.
+
+Neue Automatisierung soll bevorzugt als CLI-Command umgesetzt werden.
+
+Fachliche Inhalte dürfen durch CLI-Befehle nur bei eindeutigem Scope geändert werden.
+
+---
+
+## 16 Arbeitsprinzip
 
 Codex arbeitet klein, kontrolliert und nachvollziehbar.
 

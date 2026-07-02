@@ -143,3 +143,25 @@ Beispiel:
 ```markdown
 # Beispiel
 ```
+````
+
+---
+
+## 9 Architecture Freeze
+
+Folgende Dokumentstandards gelten ab sofort als eingefroren:
+
+- GOV-1.0
+- STB-1.0
+- RCH-2.0
+- PT-1.0
+- DOC-1.0
+- PHS-1.0
+
+Diese Standards dürfen ausschließlich geändert werden, wenn:
+
+- eine fachliche Notwendigkeit besteht,
+- die Änderung projektweit bewertet wurde,
+- eine neue Version des jeweiligen Standards beschlossen wurde.
+
+Redaktionelle Verbesserungen innerhalb bestehender Dokumente bleiben zulässig, sofern sie die Struktur des Standards nicht verändern.

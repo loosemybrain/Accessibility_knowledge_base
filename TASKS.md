@@ -184,7 +184,52 @@ npm run akb:validate
 
 ---
 
-## 7 Standardtask – Projektphase abschließen
+## 7 Standardtask – Projektstatus aktualisieren
+
+```text
+Task-ID:
+AKB-TASK-....
+
+Phase:
+Projektsteuerung
+
+Sprint:
+Nach Sprintabschluss
+
+Ziel:
+AKB-008 Projektstatus automatisiert aktualisieren.
+
+Scope:
+Nur 00_Governance/AKB-008-Projektstatus.md über tools/update-project-status.js ändern.
+
+Dateien:
+00_Governance/AKB-008-Projektstatus.md
+
+Aktion:
+Projektstatus aktualisieren.
+
+Erlaubte Änderungen:
+Vorhandene Zeilen in bestehenden Tabellen aktualisieren.
+Aktueller Sprint, aktuelles Arbeitspaket, nächstes Arbeitspaket, Evidenzstatus und Praxisteststatus aktualisieren.
+
+Erwartetes Ergebnis:
+AKB-008 enthält die angegebenen Statuswerte.
+Keine neuen Tabellen, Abschnitte oder fachlichen Inhalte wurden angelegt.
+
+Nicht erlaubt:
+Keine Governance-Regeln ändern.
+Keine neuen Abschnitte in AKB-008 erzeugen.
+Keine Handbuchdateien ändern.
+Keine Recherchedateien ändern.
+Keine Praxistests ändern.
+
+Validierung:
+npm run akb:validate
+```
+
+---
+
+## 8 Standardtask – Projektphase abschließen
 
 ```text
 Task-ID:
@@ -229,7 +274,65 @@ npm run akb:validate
 
 ---
 
-## 8 Qualitätsregel
+## 9 Standardtask – AKB CLI Command erweitern
+
+```text
+Task-ID:
+AKB-TASK-....
+
+Phase:
+Tooling Foundation
+
+Sprint:
+AKB CLI Foundation
+
+Ziel:
+AKB CLI um einen klar abgegrenzten Command erweitern.
+
+Scope:
+Nur tools/, package.json, AGENTS.md und TASKS.md ändern.
+
+Dateien:
+tools/akb.js
+tools/commands/<command>.js
+tools/lib/<helper>.js
+package.json
+AGENTS.md
+TASKS.md
+
+Aktion:
+CLI Command ergänzen oder bestehenden CLI Command strukturell erweitern.
+
+Erlaubte Änderungen:
+Neue Command-Datei unter tools/commands/ anlegen.
+Wiederverwendbare Hilfslogik unter tools/lib/ anlegen.
+CLI Einstiegspunkt tools/akb.js um den Command ergänzen.
+package.json nur ergänzen, wenn ein Script-Einstieg benötigt wird.
+AGENTS.md und TASKS.md nur im direkten Bezug zum CLI Command ergänzen.
+
+Erwartetes Ergebnis:
+Der Command ist über npm run akb -- <command> ausführbar.
+Bestehende Einzelskripte funktionieren weiterhin.
+Der Command ändert fachliche Inhalte nur bei eindeutigem Scope.
+
+Nicht erlaubt:
+Keine Handbuchdateien ändern.
+Keine Recherchedateien ändern.
+Keine Praxistests ändern.
+Keine Phasenberichte ändern.
+Keine bestehenden Skripte entfernen.
+Keine globalen Refactorings durchführen.
+
+Validierung:
+node --check tools/akb.js
+npm run akb -- validate
+npm run akb:validate
+npm run akb -- doctor
+```
+
+---
+
+## 10 Qualitätsregel
 
 Ein Task ist nur gültig, wenn eindeutig ist:
 
