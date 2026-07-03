@@ -1,12 +1,12 @@
-# Praxistest - PT-002 Einstellungen zur Barrierefreiheit
+# Praxistest - PT-004 Display symbols in lists as letters
 
 ## 1 Metadaten
 
 | Eigenschaft | Wert |
 |-------------|------|
-| Test-ID | PT-002 |
-| Zugehörige Evidenz | ACC-002-E02 |
-| Thema | Use Accessibility Mode |
+| Test-ID | PT-004 |
+| Zugehörige Evidenz | ACC-002-E04 |
+| Thema | Display symbols in lists as letters |
 | Referenzhandbuch | AKB-200 - SAP GUI for Windows |
 | Kapitel | Kapitel 5 - Barrierefreiheit |
 | Abschnitt | 5.3 - Einstellungen zur Barrierefreiheit |
@@ -16,23 +16,13 @@
 
 ---
 
-## 2 Ziel
+## 2 Testziel
 
-Prüfung der Einstellung Use Accessibility Mode im Bereich der Einstellungen zur Barrierefreiheit.
+Vorbereitung eines Praxistests zur Einstellung "Display symbols in lists as letters".
 
 Fragestellung:
 
-Welche Funktion besitzt die Einstellung Use Accessibility Mode?
-
-Testziele:
-
-- Position der Einstellung prüfen.
-- Bezeichnung prüfen.
-- Aktivierung prüfen.
-- Auswirkungen dokumentieren.
-- Hinweisdialog dokumentieren.
-- Neustartverhalten dokumentieren.
-- Abweichungen zur Herstellerdokumentation dokumentieren.
+Welche Funktion beschreibt SAP für die Einstellung "Display symbols in lists as letters"?
 
 ---
 
@@ -70,24 +60,24 @@ Durchführung in einer Umgebung mit installierter SAP GUI for Windows.
 |----:|-------------|----------|
 | 1 | SAP Logon starten. | Noch nicht durchgeführt. |
 | 2 | SAP-GUI-Optionen öffnen. | Noch nicht durchgeführt. |
-| 3 | Position der Einstellung Use Accessibility Mode prüfen. | Noch nicht durchgeführt. |
-| 4 | Bezeichnung der Einstellung Use Accessibility Mode prüfen. | Noch nicht durchgeführt. |
-| 5 | Einstellung Use Accessibility Mode aktivieren. | Noch nicht durchgeführt. |
-| 6 | Auswirkungen der Aktivierung dokumentieren. | Noch nicht durchgeführt. |
-| 7 | Hinweisdialog dokumentieren. | Noch nicht durchgeführt. |
-| 8 | SAP Logon beziehungsweise SAP Logon Pad neu starten. | Noch nicht durchgeführt. |
-| 9 | Neustartverhalten dokumentieren. | Noch nicht durchgeführt. |
-| 10 | Abweichungen zur Herstellerdokumentation dokumentieren. | Noch nicht durchgeführt. |
+| 3 | Bereich "Accessibility & Scripting" öffnen. | Noch nicht durchgeführt. |
+| 4 | Einstellung "Display symbols in lists as letters" lokalisieren. | Noch nicht durchgeführt. |
+| 5 | Ausgangszustand der Einstellung dokumentieren. | Noch nicht durchgeführt. |
+| 6 | Geeignete Liste mit Symbolanzeige öffnen. | Noch nicht durchgeführt. |
+| 7 | Darstellung der Listensymbole bei aktivierter Einstellung prüfen. | Noch nicht durchgeführt. |
+| 8 | Einstellung deaktivieren. | Noch nicht durchgeführt. |
+| 9 | Darstellung der Listensymbole erneut prüfen. | Noch nicht durchgeführt. |
+| 10 | Abweichungen dokumentieren. | Noch nicht durchgeführt. |
 
 ---
 
-## 6 Erwartetes Ergebnis
+## 6 Erwartetes Verhalten
 
 Noch nicht durchgeführt.
 
 ---
 
-## 7 Tatsächliches Ergebnis
+## 7 Tatsächlich beobachtetes Verhalten
 
 Noch nicht durchgeführt.
 
@@ -113,18 +103,24 @@ Noch nicht durchgeführt.
 
 ---
 
-## 11 Zugehörige Dokumente
+## 11 Ergebnis
+
+Noch nicht durchgeführt.
+
+---
+
+## 12 Zugehörige Dokumente
 
 | Dokumenttyp | Referenz |
 |-------------|----------|
-| Evidenz | ACC-002-E02 |
+| Evidenz | ACC-002-E04 |
 | Recherche | ACC-002 |
 | Kapitel | Kapitel 5.3 - Einstellungen zur Barrierefreiheit |
 | Referenzhandbuch | AKB-200 - SAP GUI for Windows |
 
 ---
 
-## 12 Freigabe
+## 13 Freigabe
 
 | Prüfschritt | Status |
 |-------------|--------|

@@ -1,12 +1,12 @@
-# Praxistest - PT-002 Einstellungen zur Barrierefreiheit
+# Praxistest - PT-005 Dialog box for messages
 
 ## 1 Metadaten
 
 | Eigenschaft | Wert |
 |-------------|------|
-| Test-ID | PT-002 |
-| Zugehörige Evidenz | ACC-002-E02 |
-| Thema | Use Accessibility Mode |
+| Test-ID | PT-005 |
+| Zugehörige Evidenz | ACC-002-E05 |
+| Thema | Dialog box for messages |
 | Referenzhandbuch | AKB-200 - SAP GUI for Windows |
 | Kapitel | Kapitel 5 - Barrierefreiheit |
 | Abschnitt | 5.3 - Einstellungen zur Barrierefreiheit |
@@ -16,23 +16,13 @@
 
 ---
 
-## 2 Ziel
+## 2 Testziel
 
-Prüfung der Einstellung Use Accessibility Mode im Bereich der Einstellungen zur Barrierefreiheit.
+Vorbereitung eines Praxistests zur Einstellung "Dialog box for messages".
 
 Fragestellung:
 
-Welche Funktion besitzt die Einstellung Use Accessibility Mode?
-
-Testziele:
-
-- Position der Einstellung prüfen.
-- Bezeichnung prüfen.
-- Aktivierung prüfen.
-- Auswirkungen dokumentieren.
-- Hinweisdialog dokumentieren.
-- Neustartverhalten dokumentieren.
-- Abweichungen zur Herstellerdokumentation dokumentieren.
+Welche Funktion beschreibt SAP für die Einstellung "Dialog box for messages"?
 
 ---
 
@@ -70,24 +60,24 @@ Durchführung in einer Umgebung mit installierter SAP GUI for Windows.
 |----:|-------------|----------|
 | 1 | SAP Logon starten. | Noch nicht durchgeführt. |
 | 2 | SAP-GUI-Optionen öffnen. | Noch nicht durchgeführt. |
-| 3 | Position der Einstellung Use Accessibility Mode prüfen. | Noch nicht durchgeführt. |
-| 4 | Bezeichnung der Einstellung Use Accessibility Mode prüfen. | Noch nicht durchgeführt. |
-| 5 | Einstellung Use Accessibility Mode aktivieren. | Noch nicht durchgeführt. |
-| 6 | Auswirkungen der Aktivierung dokumentieren. | Noch nicht durchgeführt. |
-| 7 | Hinweisdialog dokumentieren. | Noch nicht durchgeführt. |
-| 8 | SAP Logon beziehungsweise SAP Logon Pad neu starten. | Noch nicht durchgeführt. |
-| 9 | Neustartverhalten dokumentieren. | Noch nicht durchgeführt. |
-| 10 | Abweichungen zur Herstellerdokumentation dokumentieren. | Noch nicht durchgeführt. |
+| 3 | Bereich für Benachrichtigungen öffnen. | Noch nicht durchgeführt. |
+| 4 | Einstellungen für Meldungen in Dialogfeldern lokalisieren. | Noch nicht durchgeführt. |
+| 5 | Ausgangszustand der Einstellungen dokumentieren. | Noch nicht durchgeführt. |
+| 6 | Meldungsdialoge aktivieren. | Noch nicht durchgeführt. |
+| 7 | Geeignete Erfolgsmeldung auslösen und Verhalten dokumentieren. | Noch nicht durchgeführt. |
+| 8 | Geeignete Warnmeldung auslösen und Verhalten dokumentieren. | Noch nicht durchgeführt. |
+| 9 | Geeignete Fehlermeldung auslösen und Verhalten dokumentieren. | Noch nicht durchgeführt. |
+| 10 | Abweichungen dokumentieren. | Noch nicht durchgeführt. |
 
 ---
 
-## 6 Erwartetes Ergebnis
+## 6 Erwartetes Verhalten
 
 Noch nicht durchgeführt.
 
 ---
 
-## 7 Tatsächliches Ergebnis
+## 7 Tatsächlich beobachtetes Verhalten
 
 Noch nicht durchgeführt.
 
@@ -113,18 +103,24 @@ Noch nicht durchgeführt.
 
 ---
 
-## 11 Zugehörige Dokumente
+## 11 Ergebnis
+
+Noch nicht durchgeführt.
+
+---
+
+## 12 Zugehörige Dokumente
 
 | Dokumenttyp | Referenz |
 |-------------|----------|
-| Evidenz | ACC-002-E02 |
+| Evidenz | ACC-002-E05 |
 | Recherche | ACC-002 |
 | Kapitel | Kapitel 5.3 - Einstellungen zur Barrierefreiheit |
 | Referenzhandbuch | AKB-200 - SAP GUI for Windows |
 
 ---
 
-## 12 Freigabe
+## 13 Freigabe
 
 | Prüfschritt | Status |
 |-------------|--------|

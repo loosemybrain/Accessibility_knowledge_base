@@ -274,3 +274,13 @@ Keine globalen Refactorings.
 Keine automatische Bereinigung.
 
 Keine fachlichen Ergänzungen ohne Quelle, Test oder ausdrückliche Freigabe.
+
+---
+
+## 17 Architecture Decision Records
+
+Architecture Decision Records dokumentieren langfristige Architekturentscheidungen.
+
+Standards beschreiben Regeln.
+
+ADRs beschreiben Begründungen.
