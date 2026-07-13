@@ -11,7 +11,7 @@
 | Abschnitt | 5.3 - Einstellungen zur Barrierefreiheit |
 | Status | In Bearbeitung |
 | Version | 2.0 |
-| Letzte Aktualisierung | 02.07.2026 |
+| Letzte Aktualisierung | 08.07.2026 |
 
 ---
 
@@ -23,10 +23,10 @@
 | Evidenz angelegt | Ja |
 | Primärquellen identifiziert | Ja |
 | Primärquellen ausgewertet | Teilweise |
-| Praxistests durchgeführt | Nein |
-| Vergleich abgeschlossen | Nein |
-| Fachliche Bewertung abgeschlossen | Nein |
-| Freigabe erfolgt | Nein |
+| Praxistests durchgeführt | Teilweise |
+| Vergleich abgeschlossen | Teilweise |
+| Fachliche Bewertung abgeschlossen | Teilweise |
+| Freigabe erfolgt | Teilweise |
 
 ---
 
@@ -41,7 +41,7 @@
 | Evidenz-ID | ACC-002-E01 |
 | Status | In Vorbereitung |
 | Herstellerquelle | Noch nicht recherchiert. |
-| Praxistest | Vorgesehen |
+| Praxistest | Blockiert |
 | Referenzhandbuch | Nicht freigegeben |
 
 ---
@@ -90,9 +90,9 @@ Recherche noch nicht durchgeführt.
 
 #### Eigene Praxistests
 
-Praxistest PT-002 vorgesehen.
+Praxistest PT-002 ist blockiert.
 
-Testergebnisse liegen noch nicht vor.
+Testergebnisse liegen nicht vor.
 
 ---
 
@@ -123,7 +123,7 @@ Recherche noch nicht durchgeführt.
 | Evidenz-ID | ACC-002-E02 |
 | Status | In Bearbeitung |
 | Herstellerquelle | Ja |
-| Praxistest | Vorgesehen |
+| Praxistest | Blockiert |
 | Referenzhandbuch | Nicht freigegeben |
 
 ---
@@ -177,27 +177,27 @@ SAP dokumentiert folgende Wertbedeutungen:
 
 #### Eigene Praxistests
 
-PT-002 vorgesehen.
+PT-002 ist blockiert.
 
-Testergebnisse liegen noch nicht vor.
+Testergebnisse liegen nicht vor.
 
 ---
 
 #### Interpretation
 
-Erfolgt nach Abschluss des Praxistests.
+Eine abschließende Interpretation erfolgt nach Abschluss des Praxistests.
 
 ---
 
 #### Fachliche Bewertung
 
-Erfolgt nach Vergleich zwischen Herstellerdokumentation und Praxistest.
+Eine abschließende fachliche Bewertung erfolgt nach Vergleich zwischen Herstellerdokumentation und Praxistest.
 
 ---
 
 #### Ergebnis
 
-Die Evidenz befindet sich in Bearbeitung.
+Die Evidenz befindet sich in Bearbeitung und ist nicht für das Referenzhandbuch freigegeben.
 
 ---
 
@@ -211,7 +211,7 @@ Die Evidenz befindet sich in Bearbeitung.
 | Status | Verifiziert |
 | Herstellerquelle | Ja |
 | Praxistest | Abgeschlossen |
-| Referenzhandbuch | Freigabefähig |
+| Referenzhandbuch | Freigegeben |
 
 ---
 
@@ -332,7 +332,7 @@ Die Evidenz kann für das Referenzhandbuch verwendet werden.
 | Evidenz-ID | ACC-002-E04 |
 | Status | In Bearbeitung |
 | Herstellerquelle | Ja |
-| Praxistest | Vorgesehen |
+| Praxistest | Blockiert |
 | Referenzhandbuch | Nicht freigegeben |
 
 ---
@@ -415,25 +415,25 @@ Technische Umsetzung:
 
 #### Eigene Praxistests
 
-Praxistest PT-004 vorgesehen. Testergebnisse liegen noch nicht vor.
+Praxistest PT-004 ist blockiert. Testergebnisse liegen nicht vor.
 
 ---
 
 #### Interpretation
 
-Erfolgt nach Abschluss des Praxistests.
+Eine abschließende Interpretation erfolgt nach Abschluss des Praxistests.
 
 ---
 
 #### Fachliche Bewertung
 
-Erfolgt nach Vergleich zwischen Herstellerdokumentation und Praxistest.
+Eine abschließende fachliche Bewertung erfolgt nach Vergleich zwischen Herstellerdokumentation und Praxistest.
 
 ---
 
 #### Ergebnis
 
-Die Evidenz befindet sich in Bearbeitung.
+Die Evidenz befindet sich in Bearbeitung und ist nicht für das Referenzhandbuch freigegeben.
 
 ---
 
@@ -446,7 +446,7 @@ Die Evidenz befindet sich in Bearbeitung.
 | Evidenz-ID | ACC-002-E05 |
 | Status | In Bearbeitung |
 | Herstellerquelle | Ja |
-| Praxistest | Vorgesehen |
+| Praxistest | Blockiert |
 | Referenzhandbuch | Nicht freigegeben |
 
 ---
@@ -525,25 +525,25 @@ Technische Umsetzung:
 
 #### Eigene Praxistests
 
-Praxistest PT-005 vorgesehen. Testergebnisse liegen noch nicht vor.
+Praxistest PT-005 ist blockiert. Testergebnisse liegen nicht vor.
 
 ---
 
 #### Interpretation
 
-Erfolgt nach Abschluss des Praxistests.
+Eine abschließende Interpretation erfolgt nach Abschluss des Praxistests.
 
 ---
 
 #### Fachliche Bewertung
 
-Erfolgt nach Vergleich zwischen Herstellerdokumentation und Praxistest.
+Eine abschließende fachliche Bewertung erfolgt nach Vergleich zwischen Herstellerdokumentation und Praxistest.
 
 ---
 
 #### Ergebnis
 
-Die Evidenz befindet sich in Bearbeitung.
+Die Evidenz befindet sich in Bearbeitung und ist nicht für das Referenzhandbuch freigegeben.
 
 ---
 
@@ -556,7 +556,7 @@ Die Evidenz befindet sich in Bearbeitung.
 | Evidenz-ID | ACC-002-E06 |
 | Status | In Bearbeitung |
 | Herstellerquelle | Ja |
-| Praxistest | Vorgesehen |
+| Praxistest | Blockiert |
 | Referenzhandbuch | Nicht freigegeben |
 
 ---
@@ -615,25 +615,25 @@ Technische Umsetzung:
 
 #### Eigene Praxistests
 
-Praxistest PT-006 vorgesehen. Testergebnisse liegen noch nicht vor.
+Praxistest PT-006 ist blockiert. Testergebnisse liegen nicht vor.
 
 ---
 
 #### Interpretation
 
-Erfolgt nach Abschluss des Praxistests.
+Eine abschließende Interpretation erfolgt nach Abschluss des Praxistests.
 
 ---
 
 #### Fachliche Bewertung
 
-Erfolgt nach Vergleich zwischen Herstellerdokumentation und Praxistest.
+Eine abschließende fachliche Bewertung erfolgt nach Vergleich zwischen Herstellerdokumentation und Praxistest.
 
 ---
 
 #### Ergebnis
 
-Die Evidenz befindet sich in Bearbeitung.
+Die Evidenz befindet sich in Bearbeitung und ist nicht für das Referenzhandbuch freigegeben.
 
 ---
 
@@ -646,7 +646,7 @@ Die Evidenz befindet sich in Bearbeitung.
 | Evidenz-ID | ACC-002-E07 |
 | Status | In Bearbeitung |
 | Herstellerquelle | Ja |
-| Praxistest | Vorgesehen |
+| Praxistest | Blockiert |
 | Referenzhandbuch | Nicht freigegeben |
 
 ---
@@ -729,25 +729,25 @@ Technische Umsetzung:
 
 #### Eigene Praxistests
 
-Praxistest PT-007 vorgesehen. Testergebnisse liegen noch nicht vor.
+Praxistest PT-007 ist blockiert. Testergebnisse liegen nicht vor.
 
 ---
 
 #### Interpretation
 
-Erfolgt nach Abschluss des Praxistests.
+Eine abschließende Interpretation erfolgt nach Abschluss des Praxistests.
 
 ---
 
 #### Fachliche Bewertung
 
-Erfolgt nach Vergleich zwischen Herstellerdokumentation und Praxistest.
+Eine abschließende fachliche Bewertung erfolgt nach Vergleich zwischen Herstellerdokumentation und Praxistest.
 
 ---
 
 #### Ergebnis
 
-Die Evidenz befindet sich in Bearbeitung.
+Die Evidenz befindet sich in Bearbeitung und ist nicht für das Referenzhandbuch freigegeben.
 
 ---
 
@@ -766,12 +766,12 @@ Die Evidenz befindet sich in Bearbeitung.
 
 | Test-ID | Beschreibung | Status |
 |---------|--------------|--------|
-| PT-002 | Einstellungen zur Barrierefreiheit | Geplant |
-| PT-003 | Include read-only and disabled elements in tab chain | Geplant |
-| PT-004 | Display symbols in lists as letters | Geplant |
-| PT-005 | Dialog box for messages | Geplant |
-| PT-006 | Set F4 help to modal dialog | Geplant |
-| PT-007 | Weitere Accessibility-Einstellungen | Geplant |
+| PT-002 | Use Accessibility Mode | Blockiert |
+| PT-003 | Include read-only and disabled elements in tab chain | Abgeschlossen |
+| PT-004 | Display symbols in lists as letters | Blockiert |
+| PT-005 | Dialog box for messages | Blockiert |
+| PT-006 | Set F4 help to modal dialog | Blockiert |
+| PT-007 | Weitere Accessibility-Einstellungen | Blockiert |
 
 ---
 
@@ -780,6 +780,6 @@ Die Evidenz befindet sich in Bearbeitung.
 | Prüfschritt | Status |
 |-------------|--------|
 | Herstellerdokumentation vollständig ausgewertet | Nein |
-| Praxistests abgeschlossen | Nein |
-| Fachliche Bewertung abgeschlossen | Nein |
-| Freigabe für Referenzhandbuch | Nein |
+| Praxistests abgeschlossen | Teilweise |
+| Fachliche Bewertung abgeschlossen | Teilweise |
+| Freigabe für Referenzhandbuch | Teilweise |

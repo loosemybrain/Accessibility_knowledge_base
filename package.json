@@ -5,8 +5,11 @@
     "akb:insert": "node tools/insert-section.js",
     "akb:phase": "node tools/create-phase-report.js",
     "akb:status": "node tools/update-project-status.js",
+    "akb:create-topic": "node tools/create-topic.js",
+    "akb:topic": "node tools/akb.js topic",
     "sprint:finish": "node tools/sprint-finish.js",
     "akb:test:phase": "node tools/tests/phase-tooling.test.js",
-    "akb:test:sprint-summary": "node tools/tests/sprint-summary.test.js"
+    "akb:test:sprint-summary": "node tools/tests/sprint-summary.test.js",
+    "akb:test:topic": "node tools/tests/topic-lifecycle.test.js"
   }
 }

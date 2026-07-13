@@ -62,7 +62,15 @@ function testPhaseUpdatePreservesContent(outputDir) {
 }
 
 function testSprintFinish(outputDir) {
-  runNode(["tools/sprint-finish.js", "--phase", "001a", "--output", outputDir]);
+  runNode([
+    "tools/sprint-finish.js",
+    "--phase",
+    "001a",
+    "--output",
+    outputDir,
+    "--summary-output",
+    outputDir,
+  ]);
   const text = read(phaseFile(outputDir));
   assert.ok(text.includes("- validate"), "sprint finish should document validate");
   assert.ok(text.includes("- doctor"), "sprint finish should document doctor");

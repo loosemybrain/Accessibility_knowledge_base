@@ -12,7 +12,7 @@
 | Abschnitt | 5.3 - Einstellungen zur Barrierefreiheit |
 | Status | Abgeschlossen |
 | Version | 1.0 |
-| Letzte Aktualisierung | 03.07.2026 |
+| Letzte Aktualisierung | 08.07.2026 |
 
 ---
 
@@ -85,7 +85,7 @@ Keine Abweichungen zwischen Herstellerdokumentation und Praxistest festgestellt.
 
 | Screenshot-ID | Beschreibung | Status |
 |---------------|--------------|--------|
-| Noch nicht vergeben. | Noch nicht definiert. | Nicht vorhanden |
+| Nicht erforderlich | Für diesen Praxistest wurde kein separater Screenshot benötigt. | Nicht erforderlich |
 
 ---
 
@@ -122,6 +122,6 @@ Erwartetes Verhalten vollständig bestätigt.
 |-------------|--------|
 | Test durchgeführt | Ja |
 | Ergebnis dokumentiert | Ja |
-| Screenshots geprüft | Nein |
+| Screenshots geprüft | Nicht erforderlich |
 | Fachliche Bewertung abgeschlossen | Ja |
-| Freigabe erfolgt | Nein |
+| Freigabe erfolgt | Ja |

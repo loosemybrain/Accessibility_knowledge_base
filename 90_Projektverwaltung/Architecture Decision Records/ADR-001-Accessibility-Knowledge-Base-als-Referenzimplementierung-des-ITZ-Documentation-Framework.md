@@ -103,7 +103,10 @@ Projektspezifisch bleiben:
 
 ## 7 Status
 
-| Eigenschaft | Wert |
-|-------------|------|
-| Status | Accepted |
-| Datum | 03.07.2026 |
+Status:
+
+Accepted
+
+Datum:
+
+08.07.2026

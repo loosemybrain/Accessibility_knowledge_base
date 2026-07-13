@@ -332,7 +332,144 @@ npm run akb -- doctor
 
 ---
 
-## 10 Qualitätsregel
+## 10 Standardtask – Neues Themenpaket erstellen
+
+```text
+Task-ID:
+AKB-TASK-....
+
+Phase:
+Fachliche Dokumentation
+
+Sprint:
+Neues Themenpaket
+
+Ziel:
+Neues Themenpaket nach TMP-1.0 automatisiert erstellen.
+
+Scope:
+Nur durch den AKB CLI Command erzeugte Platzhalterdateien anlegen.
+
+Dateien:
+01_Handbuecher/<Handbuch>/quellen/ACC-xxx-<Titel>.md
+01_Handbuecher/<Handbuch>/praxistests/PT-xxx-<Titel>.md
+01_Handbuecher/<Handbuch>/kapitel/Kapitel-xx-<Titel>.md
+01_Handbuecher/<Handbuch>/steckbriefe/Kapitel-xx-<Titel>.md
+00_Governance/AKB-008-Projektstatus.md
+
+Aktion:
+npm run akb -- create-topic ACC-xxx
+
+Erlaubte Änderungen:
+Recherchedatei, Praxistestdatei, Kapitelgerüst, Steckbrief und Projektstatus-Eintrag mit Platzhaltern anlegen.
+
+Erwartetes Ergebnis:
+Das Themenpaket besitzt die TMP-1.0-Struktur.
+Es wurden keine fachlichen Inhalte erzeugt.
+Bestehende Dateien wurden nicht überschrieben.
+
+Nicht erlaubt:
+Keine fachlichen Aussagen erzeugen.
+Keine Quellen erfinden.
+Keine Praxistests als durchgeführt markieren.
+Keine Freigaben setzen.
+Keine bestehenden Evidenzen ändern.
+
+Validierung:
+npm run akb -- doctor
+npm run akb -- validate
+```
+
+---
+
+## 11 Standardtask – Themenpaket prüfen
+
+```text
+Task-ID:
+AKB-TASK-....
+
+Phase:
+Fachliche Dokumentation
+
+Sprint:
+Topic Review
+
+Ziel:
+Themenpaket nach TOP-1.0 prüfen.
+
+Scope:
+Nur Status- und Reviewprüfung über AKB CLI ausführen.
+
+Dateien:
+Keine Dateiänderungen erforderlich.
+
+Aktion:
+npm run akb -- topic status ACC-xxx
+npm run akb -- topic review ACC-xxx
+
+Erwartetes Ergebnis:
+Evidenzen, Praxistests, Kapitel, Steckbrief und Reviewstatus sind sichtbar.
+Fehlende Abschlusskriterien werden gemeldet.
+
+Nicht erlaubt:
+Keine fachlichen Inhalte ändern.
+Keine Freigaben setzen.
+Keine Recherchedateien ändern.
+Keine Praxistests ändern.
+Keine Kapitel ändern.
+
+Validierung:
+npm run akb -- doctor
+npm run akb -- validate
+```
+
+---
+
+## 12 Standardtask – Themenpaket abschließen
+
+```text
+Task-ID:
+AKB-TASK-....
+
+Phase:
+Fachliche Dokumentation
+
+Sprint:
+Topic Finish
+
+Ziel:
+Themenpaket nach TOP-1.0 abschließen.
+
+Scope:
+Nur organisatorische Abschlussartefakte erzeugen, wenn das Topic Review erfolgreich ist.
+
+Dateien:
+90_Projektverwaltung/Phasen/Phase-<ID>-<Titel>.md
+90_Projektverwaltung/Sprintberichte/Sprint-<ID>.md
+
+Aktion:
+npm run akb -- topic finish ACC-xxx --phase <ID> --title "<Titel>"
+
+Erwartetes Ergebnis:
+Doctor und Validierung sind erfolgreich.
+Phasenbericht und Sprint Summary wurden erzeugt.
+Topic Status wird als abgeschlossen ausgegeben.
+
+Nicht erlaubt:
+Keine fachlichen Inhalte ändern.
+Keine Recherchedateien ändern.
+Keine Praxistests ändern.
+Keine Kapitel ändern.
+Keine fachlichen Freigaben setzen.
+
+Validierung:
+npm run akb -- doctor
+npm run akb -- validate
+```
+
+---
+
+## 13 Qualitätsregel
 
 Ein Task ist nur gültig, wenn eindeutig ist:
 

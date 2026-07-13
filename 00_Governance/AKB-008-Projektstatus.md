@@ -6,7 +6,7 @@
 | Version | 1.0 |
 | Status | Aktiv |
 | Projekt | Accessibility Knowledge Base |
-| Letzte Aktualisierung | 01.07.2026 |
+| Letzte Aktualisierung | 08.07.2026 |
 | Verantwortlich | Projektteam Accessibility Knowledge Base |
 
 ---
@@ -23,13 +23,15 @@ Es dokumentiert den aktuellen Projektfortschritt, den Bearbeitungsstand der Doku
 
 | Eigenschaft | Wert |
 |-------------|------|
-| Projektphase | Phase 3 – Fachliche Dokumentation |
-| Aktueller Sprint | Sprint 3.7 |
+| Projektphase | Baseline Management |
+| Aktueller Sprint | Baseline 1.1 Freeze |
 | Aktuelles Themenpaket | Kapitel 5.3 - Einstellungen zur Barrierefreiheit |
 | Aktuelle Recherche | ACC-002 |
 | Aktueller Praxistest | PT-002 |
-| Status | Vorbereitung abgeschlossen |
-| Nächster Arbeitsschritt | Recherche Herstellerdokumentation |
+| Baseline | 1.1 |
+| Baseline-Status | Aktiv |
+| Status | Produktionsreif |
+| Nächster Arbeitsschritt | Export- und Veröffentlichungsplattform für Baseline 1.2 vorbereiten |
 
 ---
 
@@ -135,6 +137,7 @@ Es dokumentiert den aktuellen Projektfortschritt, den Bearbeitungsstand der Doku
 | 01.07.2026 | PHS-1.0 eingeführt |
 | 01.07.2026 | Projektverwaltung unter 90_Projektverwaltung strukturiert |
 | 01.07.2026 | ACC-001-E02 und PT-001 abgeschlossen |
+| 08.07.2026 | Baseline 1.1 als produktionsreife Framework-Baseline dokumentiert |
 
 ---
 
@@ -142,15 +145,15 @@ Es dokumentiert den aktuellen Projektfortschritt, den Bearbeitungsstand der Doku
 
 ### Sprint
 
-Sprint 3.8
+Baseline 1.2
 
 ### Ziel
 
-Recherche der Evidenz ACC-001-E03 „Neustartverhalten nach Aktivierung oder Deaktivierung des Accessibility Mode“.
+Export- und Veröffentlichungsplattform vorbereiten.
 
 ### Geplante Ergebnisse
 
-- Herstellerdokumentation zum Neustartverhalten auswerten
-- Quellen dokumentieren
-- Praxistest zum Neustartverhalten definieren oder vorhandene Beobachtung aus PT-001 referenzieren
-- Evidenz fachlich bewerten
+- DOCX-Export konzipieren
+- PDF-Pipeline vorbereiten
+- Confluence-Export vorbereiten
+- automatische Bildverwaltung bewerten

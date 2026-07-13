@@ -60,6 +60,7 @@ Es gelten folgende Standards:
 | RCH-2.0 | Recherchedateien |
 | PT-1.0 | Praxistests |
 | DOC-1.0 | Kapiteldateien |
+| TMP-1.0 | Themenpaket-Vorlagen |
 
 ---
 
@@ -284,3 +285,39 @@ Architecture Decision Records dokumentieren langfristige Architekturentscheidung
 Standards beschreiben Regeln.
 
 ADRs beschreiben Begründungen.
+
+---
+
+## 18 Themenpaket-Vorlagen
+
+Neue Themenpakete werden grundsätzlich über TMP-1.0 erstellt.
+
+Manuelles Erzeugen neuer Themenpaketstrukturen ist nicht mehr vorgesehen.
+
+Die AKB CLI ist der bevorzugte Weg:
+
+```bash
+npm run akb -- create-topic ACC-005
+```
+
+Der Command erzeugt ausschließlich Platzhalterstrukturen.
+
+Fachliche Inhalte werden nicht automatisch erzeugt.
+
+---
+
+## 19 Topic Lifecycle
+
+Neue Themenpakete werden grundsätzlich über den Topic Lifecycle nach TOP-1.0 bearbeitet.
+
+Die AKB CLI begleitet Themenpakete mit folgenden Befehlen:
+
+```bash
+npm run akb -- topic status ACC-005
+npm run akb -- topic review ACC-005
+npm run akb -- topic finish ACC-005 --phase T005 --title "Titel"
+```
+
+Lifecycle-Befehle prüfen und erzeugen organisatorische Abschlussartefakte.
+
+Sie setzen keine fachlichen Freigaben und erzeugen keine fachlichen Inhalte.

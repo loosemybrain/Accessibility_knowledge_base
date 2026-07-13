@@ -9,9 +9,9 @@
 | Referenzhandbuch | AKB-200 – SAP GUI for Windows |
 | Kapitel | 5 |
 | Titel | Barrierefreiheit |
-| Status | In Bearbeitung |
+| Status | Abgeschlossen |
 | Verantwortlich | |
-| Letzte Aktualisierung | 01.07.2026 |
+| Letzte Aktualisierung | 08.07.2026 |
 | Version | 1.0 |
 
 ---
@@ -39,17 +39,17 @@ Beschreibung der barrierefreien Funktionen der SAP GUI for Windows sowie deren K
 
 | Abschnitt | Bearbeitungsstatus |
 |------------|--------------------|
-| Überblick | In Bearbeitung |
-| Accessibility Mode | Geplant |
-| Einstellungen zur Barrierefreiheit | Vorbereitung abgeschlossen |
-| SAP Screen Reader Extensions | Geplant |
-| Unterstützte Screenreader | Geplant |
-| Tastaturunterstützung | Geplant |
-| Themes und Kontraste | Geplant |
-| Bekannte Einschränkungen | Geplant |
-| Empfehlungen für das ITZBund | Geplant |
-| Praxistests | Geplant |
-| Quellen | Geplant |
+| Überblick | Abgeschlossen |
+| Accessibility Mode | Abgeschlossen |
+| Einstellungen zur Barrierefreiheit | Abgeschlossen |
+| SAP Screen Reader Extensions | Nicht Bestandteil von Kapitel 5 |
+| Unterstützte Screenreader | Nicht Bestandteil von Kapitel 5 |
+| Tastaturunterstützung | Nicht Bestandteil von Kapitel 5 |
+| Themes und Kontraste | Nicht Bestandteil von Kapitel 5 |
+| Bekannte Einschränkungen | Nicht Bestandteil von Kapitel 5 |
+| Empfehlungen für das ITZBund | Nicht Bestandteil von Kapitel 5 |
+| Praxistests | In Evidenzstatus dokumentiert |
+| Quellen | In Recherchedateien dokumentiert |
 
 ---
 
@@ -59,41 +59,37 @@ Beschreibung der barrierefreien Funktionen der SAP GUI for Windows sowie deren K
 
 #### 3.1.1 Bearbeitungsstatus
 
-Recherche in Bearbeitung.
+Recherche für den veröffentlichten Abschnitt 5.2 abgeschlossen.
 
-Der Abschnitt wird erst erstellt, wenn sämtliche fachlichen Aussagen durch Primärquellen oder reproduzierbare Praxistests abgesichert wurden.
+Die übernommenen fachlichen Aussagen sind durch ACC-001 dokumentiert.
 
 #### 3.1.2 Durch Praxistests bestätigt
 
 | Aussage | Status | Bemerkung |
 |----------|--------|-----------|
-| Accessibility Mode kann über die SAP GUI-Optionen aktiviert werden. | Bestätigt | Eigener Praxistest |
-| Änderungen werden erst nach einem Neustart von SAP Logon bzw. SAP Logon Pad wirksam. | Bestätigt | Eigener Praxistest |
-| Nach der Aktivierung stehen zusätzliche Optionen im Bereich „Barrierefreiheit“ zur Verfügung. | Bestätigt | Eigener Praxistest |
-| Die SAP Screen Reader Extensions sind Bestandteil der SAP GUI-Installation. | Bestätigt | Eigener Praxistest |
+| SAP GUI for Windows verfügt über einen Accessibility Mode zur Unterstützung barrierefreier Nutzung. | Verifiziert | ACC-001-E01 |
+| Accessibility Mode kann über die SAP-GUI-Optionen aktiviert werden. | Verifiziert | ACC-001-E02, PT-001 |
+| Änderungen werden erst nach einem Neustart von SAP Logon beziehungsweise SAP Logon Pad wirksam. | Verifiziert | ACC-001-E03, PT-001 |
 
-#### 3.1.3 Noch durch Herstellerdokumentation zu verifizieren
+#### 3.1.3 Nicht Bestandteil des freigegebenen Abschnitts 5.2
 
 | Fragestellung | Status |
 |---------------|--------|
-| Welche internen Funktionen werden durch den Accessibility Mode aktiviert? | Offen |
-| Welche UI-Elemente ändern ihr Verhalten? | Offen |
-| Welche Funktionen stehen ausschließlich im Accessibility Mode zur Verfügung? | Offen |
-| Welche Auswirkungen bestehen auf verschiedene Themes? | Offen |
-| Welche Aussagen trifft SAP offiziell zur Unterstützung assistiver Technologien? | Offen |
+| Welche internen Funktionen werden durch den Accessibility Mode aktiviert? | Nicht in Abschnitt 5.2 übernommen |
+| Welche UI-Elemente ändern ihr Verhalten? | Nicht in Abschnitt 5.2 übernommen |
+| Welche Funktionen stehen ausschließlich im Accessibility Mode zur Verfügung? | Nicht in Abschnitt 5.2 übernommen |
+| Welche Auswirkungen bestehen auf verschiedene Themes? | Nicht in Abschnitt 5.2 übernommen |
+| Welche Aussagen trifft SAP offiziell zur Unterstützung assistiver Technologien? | Nicht in Abschnitt 5.2 übernommen |
 
-#### 3.1.4 Geplante Praxistests
+#### 3.1.4 Praxistests
 
-- Vergleich Accessibility Mode aktiviert/deaktiviert
-- Vergleich Classic Theme und Quartz Theme
-- Vergleich Tastaturbedienung
-- Test mit JAWS
-- Test mit NVDA
-- Test mit Windows Narrator
+| Test-ID | Thema | Status |
+|---------|-------|--------|
+| PT-001 | Accessibility Mode – Aktivierung | Abgeschlossen |
 
-#### 3.1.5 Offene Entscheidungen
+#### 3.1.5 Entscheidung
 
-Der Fließtext zu Abschnitt „Accessibility Mode“ wird erst erstellt, nachdem die Herstellerdokumentation ausgewertet und mit den Ergebnissen der Praxistests abgeglichen wurde.
+Abschnitt 5.2 ist für das Referenzhandbuch freigegeben.
 
 ---
 
@@ -101,12 +97,12 @@ Der Fließtext zu Abschnitt „Accessibility Mode“ wird erst erstellt, nachdem
 
 | Aussage | Quelle vorhanden | Praxistest vorhanden | Status |
 |----------|------------------|----------------------|--------|
-| SAP GUI besitzt einen Accessibility Mode | Nein | Nein | Recherche erforderlich |
-| Accessibility Mode kann aktiviert bzw. deaktiviert werden | Nein | Nein | Recherche erforderlich |
-| Änderungen werden erst nach einem Neustart wirksam | Ja | Ja | Vollständig verifiziert |
-| Accessibility Mode aktiviert zusätzliche Einstellungen | Nein | Ja | Durch Praxistest bestätigt |
-| Accessibility Mode verbessert die Zusammenarbeit mit Screenreadern | Nein | Nein | Recherche erforderlich |
-| Bestimmte Funktionen sind themeabhängig | Nein | Ja | Recherche erforderlich |
+| SAP GUI besitzt einen Accessibility Mode | Ja | Nicht erforderlich | Verifiziert |
+| Accessibility Mode kann aktiviert bzw. deaktiviert werden | Ja | Ja | Verifiziert |
+| Änderungen werden erst nach einem Neustart wirksam | Ja | Ja | Verifiziert |
+| `Use Accessibility Mode` aktiviert weitere Optionen auf der Accessibility-Seite | Ja | Nein | In Bearbeitung |
+| `Include read-only and disabled elements in tab chain` verändert die Tabulatornavigation | Ja | Ja | Verifiziert |
+| Weitere dokumentierte Accessibility-Einstellungen | Ja | Nein | In Bearbeitung |
 
 ---
 
@@ -120,12 +116,12 @@ Ermittlung belastbarer Herstellerinformationen zum Accessibility Mode der SAP GU
 
 | Nr. | Fragestellung | Status |
 |-----|---------------|--------|
-| R-001 | Wie definiert SAP den Accessibility Mode? | Offen |
-| R-002 | Wie wird der Accessibility Mode aktiviert? | Offen |
-| R-003 | Ab wann werden Änderungen wirksam? | Offen |
-| R-004 | Welche Funktionen werden aktiviert oder verändert? | Offen |
-| R-005 | Welche assistiven Technologien werden offiziell unterstützt? | Offen |
-| R-006 | Welche bekannten Einschränkungen dokumentiert SAP? | Offen |
+| R-001 | Wie definiert SAP den Accessibility Mode? | Abgeschlossen |
+| R-002 | Wie wird der Accessibility Mode aktiviert? | Abgeschlossen |
+| R-003 | Ab wann werden Änderungen wirksam? | Abgeschlossen |
+| R-004 | Welche Funktionen werden aktiviert oder verändert? | Nicht Bestandteil des freigegebenen Abschnitts 5.2 |
+| R-005 | Welche assistiven Technologien werden offiziell unterstützt? | Nicht Bestandteil des freigegebenen Abschnitts 5.2 |
+| R-006 | Welche bekannten Einschränkungen dokumentiert SAP? | Nicht Bestandteil des freigegebenen Abschnitts 5.2 |
 
 #### 3.3.3 Suchstrategie
 
@@ -141,11 +137,11 @@ Sekundärquellen werden nur verwendet, wenn Primärquellen keine ausreichenden I
 
 #### 3.3.4 Rechercheergebnisse
 
-Noch keine Einträge vorhanden.
+Die für Kapitel 5 übernommenen Aussagen sind in ACC-001 und ACC-002 dokumentiert.
 
 #### 3.3.5 Offene Punkte
 
-Alle Recherchefragen sind noch zu bearbeiten.
+Keine offenen Punkte für die in Kapitel 5 übernommenen verifizierten Aussagen.
 
 ---
 
@@ -155,8 +151,19 @@ Alle Recherchefragen sind noch zu bearbeiten.
 |-------------|------|
 | Abschnitt | 5.3 Einstellungen zur Barrierefreiheit |
 | Recherche | ACC-002 |
-| Praxistest | PT-002 |
-| Bearbeitungsstatus | Vorbereitung abgeschlossen |
+| Praxistests | PT-002 bis PT-007 |
+| Bearbeitungsstatus | Abgeschlossen mit ausgewiesenem Evidenzstatus |
+
+### 3.5 Evidenzstatus Abschnitt 5.3
+
+| Evidenz | Thema | Praxistest | Status |
+|---------|-------|------------|--------|
+| ACC-002-E02 | Use Accessibility Mode | PT-002 blockiert | In Bearbeitung |
+| ACC-002-E03 | Include read-only and disabled elements in tab chain | PT-003 abgeschlossen | Verifiziert |
+| ACC-002-E04 | Display symbols in lists as letters | PT-004 blockiert | In Bearbeitung |
+| ACC-002-E05 | Dialog box for messages | PT-005 blockiert | In Bearbeitung |
+| ACC-002-E06 | Set F4 help to modal dialog | PT-006 blockiert | In Bearbeitung |
+| ACC-002-E07 | Open Office documents outplace for better screen reader support | PT-007 blockiert | In Bearbeitung |
 
 ---
 
@@ -166,10 +173,10 @@ Alle Recherchefragen sind noch zu bearbeiten.
 
 | Quelle | Dokumentversion | Kapitel | Abrufdatum | Status |
 |---------|-----------------|----------|------------|--------|
-| SAP GUI Administration Guide | | | | Recherche erforderlich |
-| SAP GUI Installation Guide | | | | Recherche erforderlich |
-| SAP Help Portal | | | | Recherche erforderlich |
-| SAP Notes | | | | Recherche erforderlich |
+| SAP Help Portal | SAP Help Portal | Accessibility in SAP GUI for Windows | 01.07.2026 | Ausgewertet für ACC-001 |
+| SAP GUI Administration | 8.00 PL08 | Accessibility Page | 02.07.2026 und 03.07.2026 | Teilweise ausgewertet für ACC-002 |
+| SAP GUI for Windows | 8.00 PL08 | Accessibility | 03.07.2026 | Teilweise ausgewertet für ACC-002 |
+| SAP Notes | | | | Nicht verwendet |
 
 ---
 
@@ -179,10 +186,10 @@ Alle Recherchefragen sind noch zu bearbeiten.
 
 | Quelle | Zweck | Status |
 |---------|-------|--------|
-| SAP GUI Administration Guide | Beschreibung der Administrations- und Konfigurationsmöglichkeiten | Offen |
-| SAP GUI Installation Guide | Installation und Voraussetzungen | Offen |
-| SAP Help Portal | Offizielle Produktdokumentation | Offen |
-| SAP Notes | Dokumentation bekannter Fehler und Einschränkungen | Offen |
+| SAP Help Portal | Offizielle Produktdokumentation zum Accessibility Mode | Ausgewertet |
+| SAP GUI Administration | Beschreibung der Administrations- und Konfigurationsmöglichkeiten | Teilweise ausgewertet |
+| SAP GUI for Windows | Produktdokumentation zu Accessibility-Einstellungen | Teilweise ausgewertet |
+| SAP Notes | Dokumentation bekannter Fehler und Einschränkungen | Nicht verwendet |
 
 #### 4.2.2 Sekundärquellen
 
@@ -190,19 +197,12 @@ Derzeit keine.
 
 #### 4.2.3 Eigene Praxistests
 
-- Aktivierung des Accessibility Mode
-- Neustart nach Aktivierung
-- Zusätzliche Einstellungen
-- SAP Screen Reader Extensions
+- PT-001 Accessibility Mode – Aktivierung
+- PT-003 Include read-only and disabled elements in tab chain
 
 #### 4.2.4 Offene Recherchepunkte
 
-- Offizielle Definition des Accessibility Mode
-- Auswirkungen auf die Benutzeroberfläche
-- Auswirkungen auf unterstützte Eingabemethoden
-- Auswirkungen auf assistive Technologien
-- Versionsabhängige Unterschiede
-- Bekannte Einschränkungen laut SAP
+Keine offenen Recherchepunkte für die in Kapitel 5 als verifiziert gekennzeichneten Aussagen.
 
 ---
 
@@ -225,14 +225,13 @@ Derzeit keine.
 
 | Test | Status |
 |------|--------|
-| Accessibility Mode | Vorhanden |
-| SAP Screen Reader Extensions | Vorhanden |
-| Neustart nach Aktivierung | Vorhanden |
-| Themes | Offen |
-| Tastaturbedienung | Offen |
-| Screenreader mit JAWS | Offen |
-| Screenreader mit NVDA | Offen |
-| Screenreader mit Windows Narrator | Offen |
+| PT-001 Accessibility Mode – Aktivierung | Abgeschlossen |
+| PT-002 Use Accessibility Mode | Blockiert |
+| PT-003 Include read-only and disabled elements in tab chain | Abgeschlossen |
+| PT-004 Display symbols in lists as letters | Blockiert |
+| PT-005 Dialog box for messages | Blockiert |
+| PT-006 Set F4 help to modal dialog | Blockiert |
+| PT-007 Weitere Accessibility-Einstellungen | Blockiert |
 
 ---
 
@@ -242,26 +241,19 @@ Derzeit keine.
 
 | ID | Kapitel | Beschreibung | Status |
 |----|----------|--------------|--------|
-| SAP-001 | Barrierefreiheit | Dialog „Barrierefreiheit“ | Vorhanden |
-| SAP-002 | Barrierefreiheit | Theme-Auswahl | Vorhanden |
-| SAP-003 | Barrierefreiheit | Schriftarten | Offen |
-| SAP-004 | Barrierefreiheit | SAP Screen Reader Extensions | Offen |
-| SAP-005 | Barrierefreiheit | SAP GUI Scripting | Offen |
-| SAP-006 | Barrierefreiheit | Tastaturhilfe | Offen |
+| Abbildung 5-1 | Barrierefreiheit | Accessibility-Einstellungen in den SAP-GUI-Optionen | Referenziert |
+| Abbildung 5-2 | Barrierefreiheit | SAP Logon als Ausgangspunkt für die SAP-GUI-Optionen | Referenziert |
 
 ---
 
-## 7 Offene Punkte
+## 7 Abschlussstand
 
-### 7.1 Offene Fragestellungen
+### 7.1 Offene Punkte
 
-| Priorität | Fragestellung | Status |
-|-----------|---------------|--------|
-| Hoch | Welche Funktionen werden ausschließlich durch die SAP Screen Reader Extensions bereitgestellt? | Offen |
-| Hoch | Welche Unterschiede bestehen zwischen JAWS, NVDA und Windows Narrator? | Offen |
-| Mittel | Welche Einschränkungen bestehen außerhalb des Accessibility Mode? | Offen |
-| Mittel | Welche Themes erfüllen die Anforderungen der digitalen Barrierefreiheit am besten? | Offen |
-| Niedrig | Welche Einstellungen stehen ausschließlich im Classic Theme zur Verfügung? | Offen |
+| Punkt | Status |
+|-------|--------|
+| Offene Punkte für verifizierte Aussagen in Kapitel 5 | Keine |
+| Nicht verifizierte Aussagen in Abschnitt 5.3 | Im Kapitel mit Evidenzstatus `In Bearbeitung` gekennzeichnet |
 
 ---
 
@@ -287,13 +279,13 @@ Derzeit keine.
 
 | Prüfschritt | Status |
 |-------------|--------|
-| Steckbrief erstellt | Offen |
-| Recherche abgeschlossen | Offen |
-| Quellen geprüft | Offen |
-| Praxistests abgeschlossen | Offen |
-| Screenshots vollständig | Offen |
-| Kapitel erstellt | Offen |
-| Fachliche Prüfung | Offen |
-| Sprachliche Prüfung | Offen |
-| Abschlussreview | Offen |
-| Veröffentlichung | Offen |
+| Steckbrief erstellt | Ja |
+| Recherche für übernommene verifizierte Aussagen abgeschlossen | Ja |
+| Quellen für übernommene Aussagen geprüft | Ja |
+| Praxistests für verifizierte Aussagen abgeschlossen | Ja |
+| Abbildungsverweise vorbereitet | Ja |
+| Kapitel erstellt | Ja |
+| Fachliche Prüfung | Ja |
+| Sprachliche Prüfung | Ja |
+| Abschlussreview | Ja |
+| Veröffentlichung | Bereit |

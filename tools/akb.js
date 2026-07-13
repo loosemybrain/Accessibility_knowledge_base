@@ -5,6 +5,8 @@ const commands = {
   insert: require("./commands/insert"),
   phase: require("./commands/phase"),
   "sprint-summary": require("./commands/sprint-summary"),
+  "create-topic": require("./commands/create-topic"),
+  topic: require("./commands/topic"),
   status: require("./commands/status"),
   doctor: require("./commands/doctor"),
 };
@@ -20,6 +22,8 @@ function usage() {
       "  insert",
       "  phase",
       "  sprint-summary",
+      "  create-topic",
+      "  topic",
       "  status",
       "  doctor",
     ].join("\n")
