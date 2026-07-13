@@ -69,12 +69,14 @@ Der Accessibility Mode dient der Unterstützung einer barrierefreien Nutzung der
 | Eigenschaft | Wert |
 |-------------|------|
 | Dokument | SAP Help Portal – Accessibility in SAP GUI for Windows |
+| Herausgeber | SAP SE |
 | Produkt | SAP GUI for Windows |
-| Dokumentversion | SAP Help Portal |
+| Dokumentversion | 8.00 PL08 |
+| Veröffentlichungsdatum | Nicht angegeben |
 | Kapitel | Accessibility in SAP GUI for Windows |
 | Abschnitt | Accessibility Mode |
-| URL | SAP Help Portal |
-| Abrufdatum | 01.07.2026 |
+| URL | https://help.sap.com/docs/sap_gui_for_windows/63bd20104af84112973ad59590645513/38da185ebd1540bdbc919db7b9013c9a.html?locale=en-US&state=PRODUCTION&version=800.08 |
+| Abrufdatum | 13.07.2026 |
 
 ---
 
@@ -155,12 +157,14 @@ SAP dokumentiert, dass die Aktivierung oder Deaktivierung des Accessibility Mode
 | Eigenschaft | Wert |
 |-------------|------|
 | Dokument | SAP Help Portal – Accessibility in SAP GUI for Windows |
+| Herausgeber | SAP SE |
 | Produkt | SAP GUI for Windows |
-| Dokumentversion | SAP Help Portal |
+| Dokumentversion | 8.00 PL08 |
+| Veröffentlichungsdatum | Nicht angegeben |
 | Kapitel | Accessibility in SAP GUI for Windows |
 | Abschnitt | Use Accessibility Mode |
-| URL | SAP Help Portal |
-| Abrufdatum | 01.07.2026 |
+| URL | https://help.sap.com/docs/sap_gui_for_windows/63bd20104af84112973ad59590645513/38da185ebd1540bdbc919db7b9013c9a.html?locale=en-US&state=PRODUCTION&version=800.08 |
+| Abrufdatum | 13.07.2026 |
 
 ---
 
@@ -233,12 +237,14 @@ SAP beschreibt, dass Änderungen am Accessibility Mode erst nach einem Neustart 
 | Eigenschaft | Wert |
 |-------------|------|
 | Dokument | SAP Help Portal – Accessibility in SAP GUI for Windows |
+| Herausgeber | SAP SE |
 | Produkt | SAP GUI for Windows |
-| Dokumentversion | SAP Help Portal |
+| Dokumentversion | 8.00 PL08 |
+| Veröffentlichungsdatum | Nicht angegeben |
 | Kapitel | Accessibility in SAP GUI for Windows |
 | Abschnitt | Use Accessibility Mode |
-| URL | SAP Help Portal |
-| Abrufdatum | 01.07.2026 |
+| URL | https://help.sap.com/docs/sap_gui_for_windows/63bd20104af84112973ad59590645513/38da185ebd1540bdbc919db7b9013c9a.html?locale=en-US&state=PRODUCTION&version=800.08 |
+| Abrufdatum | 13.07.2026 |
 
 ---
 
@@ -286,10 +292,10 @@ Die folgende Aussage kann in das Referenzhandbuch übernommen werden:
 
 | Quelle | Dokumentversion | Status |
 |---------|-----------------|--------|
-| SAP Help Portal | SAP Help Portal | Teilweise ausgewertet |
-| SAP GUI Administration Guide | | Offen |
-| SAP GUI Installation Guide | | Offen |
-| SAP Notes | | Offen |
+| SAP Help Portal | 8.00 PL08 | Ausgewertet |
+| SAP GUI Administration Guide | | Nicht verwendet |
+| SAP GUI Installation Guide | | Nicht verwendet |
+| SAP Notes | | Nicht verwendet |
 
 ---
 

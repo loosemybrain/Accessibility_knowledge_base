@@ -16,6 +16,8 @@ function usage() {
       "  --evidence-status <status>",
       "  --test <id>",
       "  --test-status <status>",
+      "  --task <task>",
+      "  --task-status <status>",
       "  --current-sprint <sprint>",
       "  --next-sprint <next work package>",
     ].join("\n")
@@ -29,6 +31,8 @@ function parseArgs(argv) {
     "--evidence-status",
     "--test",
     "--test-status",
+    "--task",
+    "--task-status",
     "--current-sprint",
     "--next-sprint",
   ]);
@@ -61,9 +65,16 @@ function parseArgs(argv) {
   if (args.testStatus && !args.test) {
     throw new Error("--test is required when --test-status is used.");
   }
+  if (args.task && !args.taskStatus) {
+    throw new Error("--task-status is required when --task is used.");
+  }
+  if (args.taskStatus && !args.task) {
+    throw new Error("--task is required when --task-status is used.");
+  }
   if (
     !args.evidence &&
     !args.test &&
+    !args.task &&
     !args.currentSprint &&
     !args.nextSprint
   ) {
@@ -189,6 +200,24 @@ function updateTestStatus(lines, test, status) {
   throw new Error(`Existing test row not found: ${test}`);
 }
 
+function updateTaskStatus(lines, task, status) {
+  const section = findSection(lines, "## 9 Offene Aufgaben");
+  const table = findFirstTable(lines, section);
+
+  for (let i = table.start + 2; i < table.end; i += 1) {
+    const row = cells(lines[i]);
+    if (row[1] === task) {
+      if (row.length !== 3) {
+        throw new Error(`Expected three-column task row for: ${task}`);
+      }
+      lines[i] = formatRow([row[0], row[1], status]);
+      return;
+    }
+  }
+
+  throw new Error(`Existing task row not found: ${task}`);
+}
+
 function updateCurrentStatus(lines, args) {
   const section = findSection(lines, "## 2 Aktueller Projektstatus");
   const table = findFirstTable(lines, section);
@@ -230,6 +259,9 @@ function main() {
   }
   if (args.test) {
     updateTestStatus(lines, args.test, args.testStatus);
+  }
+  if (args.task) {
+    updateTaskStatus(lines, args.task, args.taskStatus);
   }
 
   fs.writeFileSync(filePath, `${lines.join(eol)}${eol}`, "utf8");

@@ -30,13 +30,14 @@ Welche Funktion beschreibt SAP für die Einstellung "Include read-only and disab
 
 | Eigenschaft | Wert |
 |-------------|------|
-| Betriebssystem | Nicht dokumentiert |
-| SAP GUI Version | Nicht dokumentiert |
-| Patchlevel | Nicht dokumentiert |
-| Theme | Nicht dokumentiert |
-| Bildschirmauflösung | Nicht dokumentiert |
-| Screenreader | Nicht dokumentiert |
-| Weitere Software | Nicht dokumentiert |
+| Testdatum | 09.07.2026 |
+| Betriebssystem | Windows 10 |
+| SAP GUI Version | 8000.1.15.1161, Build 2285874 |
+| Patchlevel | 15 |
+| Theme | Quartz |
+| Bildschirmauflösung | 1920 × 1040 |
+| Screenreader | Nicht verwendet |
+| Weitere Software | Keine |
 
 ---
 

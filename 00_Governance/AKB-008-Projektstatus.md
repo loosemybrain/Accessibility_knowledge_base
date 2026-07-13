@@ -106,7 +106,7 @@ Es dokumentiert den aktuellen Projektfortschritt, den Bearbeitungsstand der Doku
 |----------|--------|
 | ACC-001-E01 | Verifiziert |
 | ACC-001-E02 | Verifiziert |
-| ACC-001-E03 | Offen |
+| ACC-001-E03 | Verifiziert |
 
 ---
 
@@ -122,9 +122,9 @@ Es dokumentiert den aktuellen Projektfortschritt, den Bearbeitungsstand der Doku
 
 | Priorität | Aufgabe | Status |
 |------------|----------|--------|
-| Hoch | Recherche ACC-001-E03 vorbereiten | Offen |
-| Hoch | Praxistest zum Neustartverhalten definieren | Offen |
-| Mittel | Abschnitt 5.2 erst nach Abschluss der relevanten Evidenzen redaktionell erstellen | Offen |
+| Hoch | Recherche ACC-001-E03 vorbereiten | Abgeschlossen |
+| Hoch | Praxistest zum Neustartverhalten definieren | Abgeschlossen |
+| Mittel | Abschnitt 5.2 erst nach Abschluss der relevanten Evidenzen redaktionell erstellen | Abgeschlossen |
 
 ---
 

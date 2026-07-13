@@ -11,6 +11,8 @@ function usage() {
       "  --evidence-status <status>",
       "  --test <id>",
       "  --test-status <status>",
+      "  --task <task>",
+      "  --task-status <status>",
       "  --current-sprint <sprint>",
       "  --next-sprint <next work package>",
     ].join("\n")

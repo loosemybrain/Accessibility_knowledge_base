@@ -10,6 +10,7 @@
     "sprint:finish": "node tools/sprint-finish.js",
     "akb:test:phase": "node tools/tests/phase-tooling.test.js",
     "akb:test:sprint-summary": "node tools/tests/sprint-summary.test.js",
-    "akb:test:topic": "node tools/tests/topic-lifecycle.test.js"
+    "akb:test:topic": "node tools/tests/topic-lifecycle.test.js",
+    "akb:test:status": "node tools/tests/project-status.test.js"
   }
 }
