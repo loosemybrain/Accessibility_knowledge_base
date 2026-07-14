@@ -94,7 +94,7 @@ function tableRows(text) {
 
   text.split(/\r?\n/).forEach((line) => {
     const match = line.match(/^\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*$/);
-    if (!match || /^[-: ]+$/.test(match[1]) || match[1] === "Eigenschaft" || match[1] === "Pruefschritt" || match[1] === "Prüfschritt") {
+    if (!match || /^[-: ]+$/.test(match[1]) || match[1] === "Eigenschaft" || match[1] === "Prüfschritt") {
       return;
     }
     rows.set(match[1].trim(), match[2].trim());
@@ -170,10 +170,7 @@ function profileDetails(file, text) {
   return {
     file,
     finalReview: reviewStatus.get("Abschlussreview") || "Nicht dokumentiert",
-    publication:
-      reviewStatus.get("Veröffentlichung") ||
-      reviewStatus.get("Veroeffentlichung") ||
-      "Nicht dokumentiert",
+    publication: reviewStatus.get("Veröffentlichung") || "Nicht dokumentiert",
   };
 }
 
@@ -302,7 +299,7 @@ function review(topic) {
     ["Praxistests abgeschlossen und freigegeben", ready.testsReady],
     ["Kapitel vorhanden", ready.chaptersPresent],
     ["Steckbrief vorhanden", ready.profilesPresent],
-    ["Abschlussreview und Veroeffentlichungsbereitschaft dokumentiert", ready.profilesReady],
+    ["Abschlussreview und Veröffentlichungsbereitschaft dokumentiert", ready.profilesReady],
   ];
 
   checks.forEach(([label, ok]) => console.log(`${ok ? "[OK]" : "[FEHLER]"} ${label}`));

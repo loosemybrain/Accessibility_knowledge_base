@@ -10,9 +10,9 @@
 | Referenzhandbuch | AKB-200 - SAP GUI for Windows |
 | Kapitel | Kapitel 5 - Barrierefreiheit |
 | Abschnitt | 5.3 - Einstellungen zur Barrierefreiheit |
-| Status | Blockiert |
+| Status | Abgeschlossen |
 | Version | 1.0 |
-| Letzte Aktualisierung | 03.07.2026 |
+| Letzte Aktualisierung | 13.07.2026 |
 
 ---
 
@@ -40,27 +40,25 @@ Testziele:
 
 | Eigenschaft | Wert |
 |-------------|------|
-| Betriebssystem | Nicht dokumentiert |
-| SAP GUI Version | Nicht dokumentiert |
-| Patchlevel | Nicht dokumentiert |
-| Theme | Nicht dokumentiert |
-| Bildschirmauflösung | Nicht dokumentiert |
-| Screenreader | Nicht dokumentiert |
-| Weitere Software | Nicht dokumentiert |
+| Testdatum | 13.07.2026 |
+| Betriebssystem | Microsoft Windows 11 Home |
+| SAP GUI Version | 8000.1.15.1161, 800 Final Release - 64bit |
+| Patchlevel | 15 |
+| Theme | Quartz |
+| Bildschirmauflösung | 3440 × 1440 |
+| Arbeitsbereich | 3440 × 1392 |
+| Screenreader | Nicht verwendet |
+| Weitere Software | Windows UI Automation zur Teststeuerung und Zustandsprüfung |
 
 ---
 
 ## 4 Voraussetzungen
 
-Der Praxistest ist blockiert.
-
-Begründung:
-
-SAP GUI for Windows ist auf der aktuellen Entwicklungsumgebung nicht installiert.
-
-Offener nächster Schritt:
-
-Durchführung in einer Umgebung mit installierter SAP GUI for Windows.
+- SAP GUI for Windows ist installiert.
+- SAP Logon kann gestartet werden.
+- Zugriff auf die SAP-GUI-Optionen ist vorhanden.
+- Änderungen an den SAP-GUI-Einstellungen sind zulässig.
+- Der ursprüngliche Zustand der Einstellung wird nach dem Test wiederhergestellt.
 
 ---
 
@@ -68,34 +66,58 @@ Durchführung in einer Umgebung mit installierter SAP GUI for Windows.
 
 | Nr. | Testschritt | Ergebnis |
 |----:|-------------|----------|
-| 1 | SAP Logon starten. | Noch nicht durchgeführt. |
-| 2 | SAP-GUI-Optionen öffnen. | Noch nicht durchgeführt. |
-| 3 | Position der Einstellung Use Accessibility Mode prüfen. | Noch nicht durchgeführt. |
-| 4 | Bezeichnung der Einstellung Use Accessibility Mode prüfen. | Noch nicht durchgeführt. |
-| 5 | Einstellung Use Accessibility Mode aktivieren. | Noch nicht durchgeführt. |
-| 6 | Auswirkungen der Aktivierung dokumentieren. | Noch nicht durchgeführt. |
-| 7 | Hinweisdialog dokumentieren. | Noch nicht durchgeführt. |
-| 8 | SAP Logon beziehungsweise SAP Logon Pad neu starten. | Noch nicht durchgeführt. |
-| 9 | Neustartverhalten dokumentieren. | Noch nicht durchgeführt. |
-| 10 | Abweichungen zur Herstellerdokumentation dokumentieren. | Noch nicht durchgeführt. |
+| 1 | SAP Logon starten. | Erfolgreich durchgeführt. |
+| 2 | SAP-GUI-Optionen öffnen. | Erfolgreich durchgeführt. |
+| 3 | Position der Einstellung Use Accessibility Mode prüfen. | Unter `Accessibility & Scripting` auf der Seite `Accessibility` gefunden. |
+| 4 | Bezeichnung der Einstellung Use Accessibility Mode prüfen. | In der deutschen Oberfläche als `Barrierefreiheitsmodus verwenden` angezeigt. |
+| 5 | Einstellung Use Accessibility Mode aktivieren. | Deaktivierung und erneute Aktivierung erfolgreich durchgeführt. |
+| 6 | Auswirkungen der Aktivierung dokumentieren. | Abhängige Accessibility-Optionen werden bei Aktivierung auswählbar und bei Deaktivierung gesperrt. |
+| 7 | Hinweisdialog dokumentieren. | Kein separater Hinweisdialog erschienen; der Neustarthinweis wird dauerhaft auf der Seite angezeigt. |
+| 8 | SAP Logon beziehungsweise SAP Logon Pad neu starten. | Nach Deaktivierung und nach erneuter Aktivierung erfolgreich durchgeführt. |
+| 9 | Neustartverhalten dokumentieren. | Der jeweils gewählte Zustand blieb nach dem Neustart erhalten. |
+| 10 | Abweichungen zur Herstellerdokumentation dokumentieren. | Keine Abweichung beim dokumentierten Funktions- und Neustartverhalten festgestellt. |
 
 ---
 
 ## 6 Erwartetes Ergebnis
 
-Noch nicht durchgeführt.
+Die Option `Use Accessibility Mode` ist auf der Seite `Accessibility` vorhanden und kann aktiviert oder deaktiviert werden.
+
+Bei aktiviertem Accessibility Mode sind die abhängigen Accessibility-Optionen auswählbar. Eine Änderung wird nach einem Neustart von SAP Logon beziehungsweise SAP Logon Pad wirksam und bleibt nach dem Neustart erhalten.
 
 ---
 
 ## 7 Tatsächliches Ergebnis
 
-Noch nicht durchgeführt.
+### 7.1 Ausgangszustand
+
+Der Accessibility Mode war aktiviert. Die abhängigen Optionen zur Tabulatorreihenfolge und zur Anzeige von Listensymbolen waren ebenfalls aktiviert und auswählbar.
+
+### 7.2 Deaktivierung
+
+Der Accessibility Mode konnte deaktiviert und die Änderung übernommen werden. Danach waren die abhängigen Optionen nicht mehr auswählbar. Der Konfigurationswert `AccMode` besaß den Wert `off`.
+
+Nach dem Neustart von SAP Logon blieb der Accessibility Mode deaktiviert. Die abhängigen Optionen waren weiterhin nicht auswählbar.
+
+### 7.3 Aktivierung
+
+Der Accessibility Mode konnte erneut aktiviert und die Änderung übernommen werden. Die abhängigen Optionen waren anschließend wieder auswählbar. Der Konfigurationswert `AccMode` besaß den Wert `on`.
+
+Nach einem weiteren Neustart blieb der Accessibility Mode aktiviert. Damit war der ursprüngliche Zustand wiederhergestellt.
+
+### 7.4 Neustarthinweis
+
+Auf der Seite `Accessibility` wurde dauerhaft darauf hingewiesen, dass die Aktivierung oder Deaktivierung des Barrierefreiheitsmodus erst nach einem Neustart von SAP Logon beziehungsweise SAP Logon Pad wirksam wird.
+
+Beim Anwenden der Änderungen erschien kein separater Hinweisdialog.
 
 ---
 
 ## 8 Abweichungen
 
-Noch nicht durchgeführt.
+Keine Abweichung vom dokumentierten Funktions- und Neustartverhalten festgestellt.
+
+Abweichend von der in PT-001 dokumentierten Beobachtung erschien in dieser Testumgebung kein separater Hinweisdialog. Der Neustarthinweis war stattdessen dauerhaft auf der Seite `Accessibility` sichtbar.
 
 ---
 
@@ -103,13 +125,17 @@ Noch nicht durchgeführt.
 
 | Screenshot-ID | Beschreibung | Status |
 |---------------|--------------|--------|
-| Noch nicht vergeben. | Noch nicht definiert. | Nicht vorhanden |
+| SAP-001 | Seite `Accessibility` mit aktiviertem Accessibility Mode; Datei `sap_logon_optionen.PNG` | Vorhanden und geprüft |
 
 ---
 
 ## 10 Bewertung
 
-Noch nicht durchgeführt.
+Die Position, Bezeichnung und Umschaltbarkeit der Einstellung wurden bestätigt.
+
+Die abhängigen Accessibility-Optionen reagieren auf die Aktivierung und Deaktivierung des Accessibility Mode. Der jeweilige Zustand bleibt nach dem Neustart erhalten.
+
+Der ursprüngliche aktivierte Zustand wurde nach Abschluss des Tests wiederhergestellt.
 
 ---
 
@@ -128,8 +154,8 @@ Noch nicht durchgeführt.
 
 | Prüfschritt | Status |
 |-------------|--------|
-| Test durchgeführt | Nein |
-| Ergebnis dokumentiert | Nein |
-| Screenshots geprüft | Nein |
-| Fachliche Bewertung abgeschlossen | Nein |
-| Freigabe erfolgt | Nein |
+| Test durchgeführt | Ja |
+| Ergebnis dokumentiert | Ja |
+| Screenshots geprüft | Ja |
+| Fachliche Bewertung abgeschlossen | Ja |
+| Freigabe erfolgt | Ja |

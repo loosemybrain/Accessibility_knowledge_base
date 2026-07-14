@@ -11,7 +11,7 @@
 | Abschnitt | 5.3 - Einstellungen zur Barrierefreiheit |
 | Status | In Bearbeitung |
 | Version | 2.0 |
-| Letzte Aktualisierung | 08.07.2026 |
+| Letzte Aktualisierung | 13.07.2026 |
 
 ---
 
@@ -121,9 +121,9 @@ Recherche noch nicht durchgeführt.
 | Eigenschaft | Wert |
 |-------------|------|
 | Evidenz-ID | ACC-002-E02 |
-| Status | In Bearbeitung |
+| Status | Verifiziert |
 | Herstellerquelle | Ja |
-| Praxistest | Blockiert |
+| Praxistest | Abgeschlossen |
 | Referenzhandbuch | Nicht freigegeben |
 
 ---
@@ -177,7 +177,7 @@ SAP dokumentiert folgende Wertbedeutungen:
 
 #### Eigene Praxistests
 
-PT-002 ist blockiert.
+PT-002 ist abgeschlossen.
 
 Testergebnisse liegen nicht vor.
 
@@ -766,7 +766,7 @@ Die Evidenz befindet sich in Bearbeitung und ist nicht für das Referenzhandbuch
 
 | Test-ID | Beschreibung | Status |
 |---------|--------------|--------|
-| PT-002 | Use Accessibility Mode | Blockiert |
+| PT-002 | Use Accessibility Mode | Abgeschlossen |
 | PT-003 | Include read-only and disabled elements in tab chain | Abgeschlossen |
 | PT-004 | Display symbols in lists as letters | Blockiert |
 | PT-005 | Dialog box for messages | Blockiert |

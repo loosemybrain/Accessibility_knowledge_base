@@ -24,7 +24,7 @@ function run() {
   const results = [];
 
   logger.info("AKB Doctor");
-  logger.info("Pruefung: zentrale Ordner und Pflichtdateien");
+  logger.info("Prüfung: zentrale Ordner und Pflichtdateien");
   logger.info("");
 
   project.CENTRAL_DIRECTORIES.forEach((directory) => checkDirectory(directory, results));

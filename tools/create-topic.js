@@ -101,12 +101,12 @@ function researchTemplate(args) {
 
 ## 2 Bearbeitungsstatus
 
-| Pruefschritt | Status |
+| Prüfschritt | Status |
 |--------------|--------|
 | Recherchedatei erstellt | Ja |
 | Evidenz angelegt | Ja |
-| Primaerquellen identifiziert | Nein |
-| Primaerquellen ausgewertet | Nein |
+| Primärquellen identifiziert | Nein |
+| Primärquellen ausgewertet | Nein |
 | Praxistests durchgefuehrt | Nein |
 | Vergleich abgeschlossen | Nein |
 | Fachliche Bewertung abgeschlossen | Nein |
@@ -207,12 +207,12 @@ Die Evidenz befindet sich in Vorbereitung.
 
 ## 6 Freigabe
 
-| Pruefschritt | Status |
+| Prüfschritt | Status |
 |--------------|--------|
-| Herstellerdokumentation vollstaendig ausgewertet | Nein |
+| Herstellerdokumentation vollständig ausgewertet | Nein |
 | Praxistests abgeschlossen | Nein |
 | Fachliche Bewertung abgeschlossen | Nein |
-| Freigabe fuer Referenzhandbuch | Nein |`;
+| Freigabe für Referenzhandbuch | Nein |`;
 }
 
 function testTemplate(args) {
@@ -313,7 +313,7 @@ Noch nicht durchgefuehrt.
 
 ## 12 Freigabe
 
-| Pruefschritt | Status |
+| Prüfschritt | Status |
 |--------------|--------|
 | Test durchgefuehrt | Nein |
 | Ergebnis dokumentiert | Nein |
@@ -325,7 +325,7 @@ Noch nicht durchgefuehrt.
 function chapterTemplate(args) {
   return `# ${args.title}
 
-## ${args.chapter}.1 Ueberblick
+## ${args.chapter}.1 Überblick
 
 Noch nicht erstellt.
 
@@ -379,7 +379,7 @@ Noch nicht festgelegt.
 
 | Abschnitt | Bearbeitungsstatus |
 |-----------|--------------------|
-| Ueberblick | In Vorbereitung |
+| Überblick | In Vorbereitung |
 | Evidenzstatus | In Vorbereitung |
 | Praxistests | In Vorbereitung |
 
@@ -395,16 +395,16 @@ Noch nicht festgelegt.
 
 ## 4 Reviewstatus
 
-| Pruefschritt | Status |
+| Prüfschritt | Status |
 |--------------|--------|
 | Steckbrief erstellt | Ja |
 | Recherche abgeschlossen | Nein |
 | Praxistests abgeschlossen | Nein |
 | Kapitel erstellt | Nein |
-| Fachliche Pruefung | Nein |
-| Sprachliche Pruefung | Nein |
+| Fachliche Prüfung | Nein |
+| Sprachliche Prüfung | Nein |
 | Abschlussreview | Nein |
-| Veroeffentlichung | Nein |`;
+| Veröffentlichung | Nein |`;
 }
 
 function isTableRow(line) {

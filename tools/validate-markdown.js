@@ -96,7 +96,7 @@ function validateTableAt(errors, filePath, lines, index) {
       filePath,
       lineNumber,
       "AKB_TABLE_HEADER",
-      "Tabellen muessen mit Kopfzeile und Trennzeile beginnen."
+      "Tabellen müssen mit Kopfzeile und Trennzeile beginnen."
     );
     return;
   }
@@ -153,7 +153,7 @@ function validateStatus(errors, filePath, line, lineNumber) {
       filePath,
       lineNumber,
       "AKB_STATUS_FORMAT",
-      "Statuswerte muessen als Klartext ohne Markdown-Formatierung angegeben werden."
+      "Statuswerte müssen als Klartext ohne Markdown-Formatierung angegeben werden."
     );
   }
 }
@@ -220,7 +220,7 @@ function validateFile(filePath) {
         filePath,
         lineNumber,
         "AKB_HEADING_SKIP",
-        `Ueberschriftenebene uebersprungen: H${previousHeadingLevel} auf H${level}.`
+        `Überschriftenebene übersprungen: H${previousHeadingLevel} auf H${level}.`
       );
     }
 

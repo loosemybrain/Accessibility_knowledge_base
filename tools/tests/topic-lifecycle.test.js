@@ -67,7 +67,7 @@ function testStatusExtraction() {
 
 ## 13 Freigabe
 
-| Pruefschritt | Status |
+| Prüfschritt | Status |
 |--------------|--------|
 | Freigabe erfolgt | Ja |
 `
@@ -79,10 +79,10 @@ function testStatusExtraction() {
     "profile.md",
     `## 9 Reviewstatus
 
-| Pruefschritt | Status |
+| Prüfschritt | Status |
 |--------------|--------|
 | Abschlussreview | Ja |
-| Veroeffentlichung | Bereit |
+| Veröffentlichung | Bereit |
 `
   );
   assert.strictEqual(profile.finalReview, "Ja");
