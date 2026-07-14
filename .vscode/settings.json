@@ -8,6 +8,7 @@
   "editor.insertSpaces": true,
   "markdown.preview.scrollPreviewWithEditor": true,
   "markdown.preview.scrollEditorWithPreview": true,
+  "markdown.marp.html": "all",
   "markdown.extension.toc.levels": "2..4",
   "markdown.extension.orderedList.marker": "ordered",
   "markdownlint.config": {

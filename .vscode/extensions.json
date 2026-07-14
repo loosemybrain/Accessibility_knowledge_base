@@ -1,6 +1,7 @@
 // .vscode/extensions.json
 {
   "recommendations": [
+    "marp-team.marp-vscode",
     "shd101wyy.markdown-preview-enhanced",
     "yzhang.markdown-all-in-one",
     "davidanson.vscode-markdownlint"
