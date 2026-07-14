@@ -334,7 +334,7 @@ style: |
 ## Kennzahlen des aktuellen Arbeitsstands
 
 <div class="grid four metrics">
-  <div class="metric"><strong>64</strong><span>Markdown-Dateien</span></div>
+  <div class="metric"><strong>68</strong><span>Markdown-Dateien</span></div>
   <div class="metric"><strong>14</strong><span>Governance- und Standarddokumente</span></div>
   <div class="metric"><strong>17</strong><span>Kapitel im Referenzhandbuch</span></div>
   <div class="metric"><strong>4</strong><span>Recherchedateien</span></div>
@@ -421,7 +421,7 @@ style: |
 | Themenpaket | Gegenstand                         | Dokumentierter Stand          | Bedeutung für das Handbuch                              |
 | ----------- | ---------------------------------- | ----------------------------- | ------------------------------------------------------- |
 | ACC-001     | Accessibility Mode                 | 3 Evidenzen verifiziert       | Aktivierung und Neustartverhalten veröffentlicht        |
-| ACC-002     | Einstellungen zur Barrierefreiheit | 2 von 7 Evidenzen verifiziert | teilweise veröffentlicht, insgesamt nicht freigabefähig |
+| ACC-002     | Einstellungen zur Barrierefreiheit | E02/E03 freigegeben; E01 recherchiert | quellenbasierter Überblick und geprüfte Einstellungen   |
 | ACC-003     | SAP Screen Reader Extensions       | 5 Evidenzen in Bearbeitung    | Grundlage für Screenreader-Unterstützung                |
 | ACC-004     | Assistive Technologien             | 3 Evidenzen in Bearbeitung    | JAWS, NVDA und Windows Narrator im Recherchefokus       |
 
@@ -435,8 +435,8 @@ style: |
   <div class="card">
     <h3>Veröffentlichte Aussagen</h3>
     <ul>
-      <li>Accessibility Mode und Aktivierungsweg</li>
-      <li>Wirksamkeit nach Neustart</li>
+      <li>Accessibility Mode, Aktivierungsweg und Neustartverhalten</li>
+      <li>Steuerung der abhängigen Accessibility-Optionen</li>
       <li>Einbeziehung schreibgeschützter und deaktivierter Elemente in die Tabulatorreihenfolge</li>
     </ul>
   </div>
@@ -444,7 +444,7 @@ style: |
     <h3>Nachweise</h3>
     <ul>
       <li>ACC-001-E01 bis E03 und PT-001</li>
-      <li>ACC-002-E03 und PT-003</li>
+      <li>ACC-002-E02 mit PT-002 sowie E03 mit PT-003</li>
       <li>Quellen, Testschritte und Bewertungen getrennt dokumentiert</li>
     </ul>
   </div>
@@ -458,16 +458,22 @@ style: |
 
 ## Evidenzen und Praxistests
 
-| Status          | Anzahl |
-| --------------- | ------ |
-| Verifiziert     | 5      |
-| In Vorbereitung | 1      |
-| In Bearbeitung  | 12     |
+<div class="grid two">
+  <div class="card">
+    <h3>18 Evidenzen</h3>
+    <p><strong>5</strong> verifiziert und für das Referenzhandbuch freigegeben</p>
+    <p><strong>13</strong> in Bearbeitung</p>
+  </div>
+  <div class="card">
+    <h3>7 Praxistests</h3>
+    <p><strong>3</strong> abgeschlossen: PT-001 bis PT-003</p>
+    <p><strong>4</strong> formal noch blockiert: PT-004 bis PT-007</p>
+  </div>
+</div>
 
-| Status        | Testfälle         |
-| ------------- | ----------------- |
-| Abgeschlossen | PT-001 bis PT-003 |
-| Blockiert     | PT-004 bis PT-007 |
+<div class="callout">
+  <p><strong>Aktueller Übergang:</strong> E01 ist vollständig recherchiert und wartet auf das Fachreview.</p>
+</div>
 
 ---
 
@@ -496,15 +502,15 @@ style: |
 
 ## Der aktuelle Konsolidierungsbedarf
 
-| Ebene                | Beobachtung                                                           | Erforderliche Klärung                              |
-| -------------------- | --------------------------------------------------------------------- | -------------------------------------------------- |
-| `PROJECT_STATUS.md`  | nennt noch ACC-001 und 39 Dateien                                     | aktuellen Projektstand kontrolliert nachführen     |
-| AKB-008              | Baseline 1.1 dokumentiert, Statuslisten enden bei ACC-001 und PT-001  | Evidenz- und Testübersichten synchronisieren       |
-| ACC-002-E02          | verifiziert, PT-002 abgeschlossen, Referenzhandbuch nicht freigegeben | fachliche Texte und Freigabestatus getrennt prüfen |
-| PT-004 bis PT-007    | weiterhin wegen fehlender Testumgebung blockiert                      | Begründung gegen aktuellen Teststand prüfen        |
-| Topic-Review ACC-002 | Evidenzen und Praxistests nicht abschlussbereit                       | offene Kriterien einzeln abarbeiten                |
+| Ebene                | Beobachtung                                                          | Erforderliche Klärung                          |
+| -------------------- | -------------------------------------------------------------------- | ---------------------------------------------- |
+| `PROJECT_STATUS.md`  | nennt noch ACC-001 und 39 Dateien                                    | aktuellen Projektstand kontrolliert nachführen |
+| AKB-008              | aktueller Sprint ist ACC-002; Detailtabellen enden bei ACC-001/PT-001 | Evidenz- und Testübersichten synchronisieren   |
+| ACC-002-E01          | Herstellerrecherche abgeschlossen, Evidenz noch nicht freigegeben    | Fachreview und Freigabe durchführen            |
+| PT-004 bis PT-007    | formal noch blockiert; Testumgebung ist inzwischen verfügbar         | Status prüfen und Testreihenfolge festlegen    |
+| Topic-Review ACC-002 | Evidenzen und Praxistests nicht abschlussbereit                      | offene Kriterien einzeln abarbeiten            |
 
-<p class="small">Die Abweichungen sind dokumentiert. Eine automatische Bereinigung ohne fachlichen Scope ist ausdrücklich nicht vorgesehen.</p>
+<p class="small">Abgeschlossen: ACC-002-E02 und PT-002 sind synchronisiert; E02 ist für das Referenzhandbuch freigegeben.</p>
 
 ---
 
@@ -513,18 +519,18 @@ style: |
 <div class="roadmap">
   <div class="roadmap-stage">
     <div class="number">1</div>
-    <h3>Statusbasis konsolidieren</h3>
+    <h3>ACC-002 konsolidieren</h3>
     <ul>
-      <li>Single Source of Truth festlegen</li>
-      <li>Projektstatus kontrolliert nachführen</li>
-      <li>ACC-002-Abweichungen einzeln bearbeiten</li>
+      <li>E02 und E03 sind freigegeben</li>
+      <li>E01 fachlich prüfen und freigeben</li>
+      <li>Statusübersichten synchronisieren</li>
     </ul>
   </div>
   <div class="roadmap-stage">
     <div class="number">2</div>
     <h3>Testlücken schließen</h3>
     <ul>
-      <li>Testumgebung verbindlich klären</li>
+      <li>vorhandene Testumgebung einsetzen</li>
       <li>PT-004 bis PT-007 priorisieren</li>
       <li>Ergebnisse reproduzierbar dokumentieren</li>
     </ul>
@@ -533,7 +539,7 @@ style: |
     <div class="number">3</div>
     <h3>Recherche abschließen</h3>
     <ul>
-      <li>ACC-002 reviewfähig machen</li>
+      <li>ACC-002 nach den Praxistests reviewfähig machen</li>
       <li>ACC-003 und ACC-004 validieren</li>
       <li>Screenreader-Aussagen absichern</li>
     </ul>
@@ -575,8 +581,8 @@ style: |
   <div class="card">
     <h3>Unser Arbeitsfokus</h3>
     <ul>
-      <li>Statusbasis und ACC-002 konsolidieren</li>
-      <li>PT-004 bis PT-007 auf geklärter Testumgebung bearbeiten</li>
+      <li>E01 fachlich prüfen und ACC-002 weiter konsolidieren</li>
+      <li>PT-004 bis PT-007 in der vorhandenen Testumgebung bearbeiten</li>
       <li>ACC-003 und ACC-004 anschließend fachlich abschließen</li>
     </ul>
   </div>
@@ -584,7 +590,7 @@ style: |
     <h3>Was wir dafür benötigen</h3>
     <ul>
       <li>Verantwortliche Reviewrolle benennen</li>
-      <li>SAP-GUI-Testumgebung verbindlich bereitstellen</li>
+      <li>Testumfang und Reihenfolge für PT-004 bis PT-007 festlegen</li>
       <li>Kapazität für PT-004 bis PT-007 festlegen</li>
     </ul>
   </div>
@@ -653,6 +659,6 @@ style: |
 
 ## Die Basis steht. Jetzt entscheidet die fachliche Konsolidierung über den nächsten Reifegrad.
 
-<p class="closing">Kapitel 5 liefert einen belastbaren Anfang. Mit einer konsistenten Statusbasis, geklärter Testumgebung und einem priorisierten Reviewpfad kann aus dem Teilstand schrittweise ein freigabefähiges Referenzhandbuch werden.</p>
+<p class="closing">Kapitel 5 liefert einen belastbaren Anfang. Mit einer konsistenten Statusbasis, der verfügbaren Testumgebung und einem priorisierten Reviewpfad kann aus dem Teilstand schrittweise ein freigabefähiges Referenzhandbuch werden.</p>
 
-**Unser nächster gemeinsamer Schritt:** Statusbasis konsolidieren und den nächsten Arbeitsscope nachvollziehbar dokumentieren.
+**Unser nächster gemeinsamer Schritt:** ACC-002-E01 fachlich prüfen und PT-004 bis PT-007 in der vorhandenen Testumgebung starten.

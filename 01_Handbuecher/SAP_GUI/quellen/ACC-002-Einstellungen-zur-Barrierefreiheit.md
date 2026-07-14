@@ -39,9 +39,9 @@
 | Eigenschaft | Wert |
 |-------------|------|
 | Evidenz-ID | ACC-002-E01 |
-| Status | In Vorbereitung |
-| Herstellerquelle | Noch nicht recherchiert. |
-| Praxistest | Blockiert |
+| Status | In Bearbeitung |
+| Herstellerquelle | Ja |
+| Praxistest | Nicht erforderlich |
 | Referenzhandbuch | Nicht freigegeben |
 
 ---
@@ -60,17 +60,28 @@ Ermittlung und Dokumentation der von SAP offiziell beschriebenen Einstellungen i
 
 | Quelle | Verwendung | Status |
 |--------|------------|--------|
-| SAP Help Portal | Primärquelle | Recherche noch nicht durchgeführt. |
-| SAP GUI Administration Guide | Primärquelle | Recherche noch nicht durchgeführt. |
-| SAP GUI Installation Guide | Primärquelle, falls relevant | Recherche noch nicht durchgeführt. |
-| SAP Notes | Primärquelle, falls erforderlich | Recherche noch nicht durchgeführt. |
+| SAP Help Portal | Primärquelle | Ausgewertet |
+| SAP GUI Administration | Primärquelle | Ausgewertet |
+| SAP GUI Installation Guide | Primärquelle, falls relevant | Für diese Evidenz nicht herangezogen |
+| SAP Notes | Primärquelle, falls erforderlich | Für diese Evidenz nicht herangezogen |
 | Sekundärquellen | Nicht verwendet | Nicht vorgesehen |
 
 ---
 
 #### Dokumentierte Herstellerinformation
 
-Recherche noch nicht durchgeführt.
+SAP dokumentiert auf der Seite `Accessibility Page` folgende Einstellungen:
+
+| Einstellung | Dokumentierte Einordnung |
+|-------------|--------------------------|
+| `Use accessibility mode` | Aktiviert oder deaktiviert den Accessibility Mode. Die Option muss aktiviert sein, damit die anderen Optionen dieser Seite aktiviert werden können. |
+| `Include read-only and disabled elements in tab chain` | Einstellung für die Einbeziehung schreibgeschützter und deaktivierter Elemente in die Tabulatorreihenfolge. |
+| `Display symbols in lists as letters` | Einstellung für die Darstellung von Symbolen in Listen als Buchstaben. |
+| `Open Office documents outplace for better screen reader support` | Einstellung für das externe Öffnen von Office-Dokumenten zur besseren Screenreader-Unterstützung. |
+
+SAP ordnet die Seite `Accessibility` dem Bereich `Accessibility & Scripting` zu.
+
+In den Hinweisen für Screenreader- und Vergrößerungsnutzende führt SAP diese Einstellungen in einer Übersicht mit empfohlenen Schaltzuständen auf. Die Übersicht nennt zusätzlich Einstellungen aus den Bereichen Scripting, Notifications und F4 Help; diese gehören nicht unmittelbar zur Seite `Accessibility`.
 
 ---
 
@@ -78,39 +89,47 @@ Recherche noch nicht durchgeführt.
 
 | Eigenschaft | Wert |
 |-------------|------|
-| Dokument | Recherche noch nicht durchgeführt. |
-| Produkt | Recherche noch nicht durchgeführt. |
-| Dokumentversion | Recherche noch nicht durchgeführt. |
-| Kapitel | Recherche noch nicht durchgeführt. |
-| Abschnitt | Recherche noch nicht durchgeführt. |
-| URL | Recherche noch nicht durchgeführt. |
-| Abrufdatum | Recherche noch nicht durchgeführt. |
+| Dokument | SAP GUI Administration |
+| Produkt | SAP GUI for Windows |
+| Dokumentversion | 8.00 PL08 |
+| Kapitel | Accessibility Page |
+| Abschnitt | Registry Values |
+| URL | https://help.sap.com/docs/sap_gui_for_windows/dfad9ecd79db404eba46fdd709013a78/2e1cf2b8e1734a2b94b180206742a3a1.html?locale=en-US&state=PRODUCTION&version=800.08 |
+| Abrufdatum | 14.07.2026 |
+
+| Eigenschaft | Wert |
+|-------------|------|
+| Dokument | SAP GUI for Windows |
+| Produkt | SAP GUI for Windows |
+| Dokumentversion | 8.00 PL08 |
+| Kapitel | Notes for Users of Screen Readers and Screen Magnifiers |
+| Abschnitt | Recommended Settings in SAP GUI for Windows |
+| URL | https://help.sap.com/docs/sap_gui_for_windows/63bd20104af84112973ad59590645513/efb032ca6e9844d0a8443674f4eb85f6.html?locale=en-US&state=PRODUCTION&version=800.08 |
+| Abrufdatum | 14.07.2026 |
 
 ---
 
 #### Eigene Praxistests
 
-Praxistest PT-002 ist blockiert.
-
-Testergebnisse liegen nicht vor.
+Für diese Evidenz ist kein Praxistest erforderlich. Die Absicherung erfolgt ausschließlich durch Herstellerquellen.
 
 ---
 
 #### Interpretation
 
-Recherche noch nicht durchgeführt.
+Die SAP-Herstellerdokumentation weist vier Einstellungen unmittelbar der Seite `Accessibility` zu. Weitere von SAP empfohlene Einstellungen für die barrierefreie Nutzung befinden sich auf anderen Einstellungsseiten und sind deshalb nicht Bestandteil dieser Bestandsaufnahme.
 
 ---
 
 #### Fachliche Bewertung
 
-Recherche noch nicht durchgeführt.
+Die Bestandsaufnahme ist durch zwei SAP-Herstellerquellen dokumentiert. Ein Praxistest ist für die quellenbasierte Ermittlung der von SAP dokumentierten Einstellungen nicht erforderlich.
 
 ---
 
 #### Ergebnis
 
-Recherche noch nicht durchgeführt.
+Die Herstellerrecherche ist abgeschlossen. Die Evidenz befindet sich bis zur fachlichen Prüfung in Bearbeitung und ist nicht für das Referenzhandbuch freigegeben.
 
 ---
 
@@ -124,7 +143,7 @@ Recherche noch nicht durchgeführt.
 | Status | Verifiziert |
 | Herstellerquelle | Ja |
 | Praxistest | Abgeschlossen |
-| Referenzhandbuch | Nicht freigegeben |
+| Referenzhandbuch | Freigegeben |
 
 ---
 
@@ -199,7 +218,11 @@ Die Herstellerdokumentation und der Praxistest stimmen hinsichtlich der Aktivier
 
 #### Ergebnis
 
-Die Funktion der Einstellung `Use Accessibility Mode` ist durch die Herstellerquelle und PT-002 belegt. Die Evidenz ist verifiziert und weiterhin nicht für das Referenzhandbuch freigegeben.
+Die Funktion der Einstellung `Use Accessibility Mode` ist durch die Herstellerquelle und PT-002 belegt.
+
+Verifiziert.
+
+Die Evidenz kann für das Referenzhandbuch verwendet werden.
 
 ---
 

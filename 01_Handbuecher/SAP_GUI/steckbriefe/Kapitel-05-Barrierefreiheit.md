@@ -100,7 +100,7 @@ Abschnitt 5.2 ist für das Referenzhandbuch freigegeben.
 | SAP GUI besitzt einen Accessibility Mode | Ja | Nicht erforderlich | Verifiziert |
 | Accessibility Mode kann aktiviert bzw. deaktiviert werden | Ja | Ja | Verifiziert |
 | Änderungen werden erst nach einem Neustart wirksam | Ja | Ja | Verifiziert |
-| `Use Accessibility Mode` aktiviert weitere Optionen auf der Accessibility-Seite | Ja | Nein | In Bearbeitung |
+| `Use Accessibility Mode` aktiviert weitere Optionen auf der Accessibility-Seite | Ja | Ja | Verifiziert |
 | `Include read-only and disabled elements in tab chain` verändert die Tabulatornavigation | Ja | Ja | Verifiziert |
 | Weitere dokumentierte Accessibility-Einstellungen | Ja | Nein | In Bearbeitung |
 
@@ -158,6 +158,7 @@ Keine offenen Punkte für die in Kapitel 5 übernommenen verifizierten Aussagen.
 
 | Evidenz | Thema | Praxistest | Status |
 |---------|-------|------------|--------|
+| ACC-002-E01 | Bestandsaufnahme der Accessibility-Einstellungen | Nicht erforderlich | In Vorbereitung |
 | ACC-002-E02 | Use Accessibility Mode | PT-002 abgeschlossen | Verifiziert |
 | ACC-002-E03 | Include read-only and disabled elements in tab chain | PT-003 abgeschlossen | Verifiziert |
 | ACC-002-E04 | Display symbols in lists as letters | PT-004 blockiert | In Bearbeitung |
@@ -305,13 +306,12 @@ Keine offenen Recherchepunkte für die in Kapitel 5 als verifiziert gekennzeichn
 
 | Nr. | Bereich | Offener Punkt | Status |
 |----:|---------|---------------|--------|
-| 1 | ACC-002-E01 | PT-002 wird als blockierter Praxistest referenziert, obwohl PT-002 ACC-002-E02 zugeordnet und abgeschlossen ist. | Offen |
-| 2 | ACC-002-E02 | Der Referenzhandbuchstatus lautet weiterhin `Nicht freigegeben`. | Offen |
-| 3 | ACC-002-E04 und PT-004 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
-| 4 | ACC-002-E05 und PT-005 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
-| 5 | ACC-002-E06 und PT-006 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
-| 6 | ACC-002-E07 und PT-007 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
-| 7 | Bilddokumentation | Abbildung 5-2 wird im Steckbrief als `Referenziert` geführt, ist im geprüften Kapitel jedoch nicht referenziert. | Offen |
-| 8 | Topic Lifecycle | Das CLI-Review meldet die Kriterien `Evidenzen verifiziert und freigegeben` und `Praxistests abgeschlossen und freigegeben` als nicht erfüllt. | Offen |
+| 1 | ACC-002-E01 | Die Herstellerrecherche ist abgeschlossen; fachliche Prüfung und Freigabe der Evidenz stehen noch aus. | Offen |
+| 2 | ACC-002-E04 und PT-004 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
+| 3 | ACC-002-E05 und PT-005 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
+| 4 | ACC-002-E06 und PT-006 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
+| 5 | ACC-002-E07 und PT-007 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
+| 6 | Bilddokumentation | Abbildung 5-2 wird im Steckbrief als `Referenziert` geführt, ist im geprüften Kapitel jedoch nicht referenziert. | Offen |
+| 7 | Topic Lifecycle | Das CLI-Review meldet die Kriterien `Evidenzen verifiziert und freigegeben` und `Praxistests abgeschlossen und freigegeben` als nicht erfüllt. | Offen |
 
-Der zuvor dokumentierte Abgleich zwischen ACC-002-E02 und PT-002 wurde nach bestätigter fachlicher Prüfung von PT-002 abgeschlossen. Die übrigen offenen Punkte wurden nicht fachlich bearbeitet.
+Der Abgleich zwischen ACC-002-E02 und PT-002 sowie die Freigabe von ACC-002-E02 wurden abgeschlossen. Für ACC-002-E01 wurde festgelegt, dass die Evidenz ausschließlich durch Herstellerquellen abgesichert wird. Die übrigen offenen Punkte wurden nicht fachlich bearbeitet.
