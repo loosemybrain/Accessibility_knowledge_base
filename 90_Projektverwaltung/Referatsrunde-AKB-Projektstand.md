@@ -15,6 +15,7 @@ style: |
     --muted: #52606d;
     --line: #7b8794;
     --white: #ffffff;
+    --petrol: #0A5F6C;
   }
   section {
     background: linear-gradient(135deg, #ffffff 0%, #f4f8fa 100%);
@@ -48,7 +49,7 @@ style: |
     color: var(--white);
   }
   section::after {
-    color: var(--navy);
+    color: var(--petrol);
     font-size: 16px;
   }
   section.lead::after {
@@ -62,14 +63,14 @@ style: |
     color: var(--ice);
   }
   h1 {
-    color: var(--navy);
+    color: var(--petrol);
     font-size: 58px;
     line-height: 1.08;
     letter-spacing: -1.2px;
     margin: 0 0 28px;
   }
   h2 {
-    color: var(--navy);
+    color: var(--petrol);
     font-size: 40px;
     line-height: 1.12;
     margin: 0 0 30px;
@@ -84,7 +85,7 @@ style: |
     line-height: 1.38;
   }
   strong {
-    color: var(--navy);
+    color: var(--petrol);
   }
   table {
     width: 100%;
@@ -92,7 +93,7 @@ style: |
     font-size: 20px;
   }
   th {
-    background: var(--navy);
+    background: var(--petrol);
     color: var(--white);
     text-align: left;
     padding: 10px 13px;
@@ -107,7 +108,7 @@ style: |
   }
   code {
     background: var(--ice);
-    color: var(--navy);
+    color: var(--petrol);
     padding: 2px 6px;
     border-radius: 5px;
   }
@@ -141,6 +142,10 @@ style: |
   }
   .grid.four {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .grid.metrics {
+    column-gap: 28px;
+    row-gap: 30px;
   }
   .card {
     background: var(--white);
@@ -230,7 +235,7 @@ style: |
   }
   .roadmap-stage .number {
     align-items: center;
-    background: var(--navy);
+    background: var(--petrol);
     border-radius: 50%;
     color: var(--white);
     display: flex;
@@ -250,6 +255,9 @@ style: |
     color: var(--muted);
     font-size: 17px;
   }
+  .technical-note {
+    margin-top: 32px;
+  }
   .center {
     text-align: center;
   }
@@ -263,6 +271,7 @@ style: |
 <!-- Renderhinweis: Für Karten- und Roadmap-Layouts Marp mit aktivierter HTML-Unterstützung verwenden. -->
 
 <!-- _class: lead -->
+
 <!-- _paginate: false -->
 
 <p class="eyebrow">Referatsrunde · Projektstand und weiterer Verlauf</p>
@@ -271,25 +280,25 @@ style: |
 
 <p class="subtitle">Vom SAP-Handbuch zur belastbaren Wissensplattform für digitale Barrierefreiheit</p>
 
-**Stand:** 14.07.2026  
+**Stand:** 14.07.2026\
 **Referenzhandbuch:** AKB-200 – SAP GUI for Windows
 
 ---
 
-## Was heute geklärt werden soll
+## Was wir heute vorstellen
 
 <div class="grid three">
   <div class="card">
-    <h3>Wo stehen wir?</h3>
-    <p>Aktueller Projekt-, Evidenz- und Teststand des Referenzhandbuchs.</p>
+    <h3>Unser Projektstand</h3>
+    <p>Wir zeigen den aktuellen Projekt-, Evidenz- und Teststand des Referenzhandbuchs.</p>
   </div>
   <div class="card">
-    <h3>Was umfasst das Projekt?</h3>
-    <p>Governance, Themenfelder, Tooling und Veröffentlichungslogik auf einen Blick.</p>
+    <h3>Unsere Themenfelder</h3>
+    <p>Wir ordnen Governance, Fachthemen, Tooling und Veröffentlichungslogik ein.</p>
   </div>
   <div class="card">
-    <h3>Wie geht es weiter?</h3>
-    <p>Vorgeschlagene Reihenfolge, notwendige Entscheidungen und klare Abschlusskriterien.</p>
+    <h3>Unser weiterer Verlauf</h3>
+    <p>Wir erläutern die nächsten Etappen, Rahmenbedingungen und Abschlusskriterien.</p>
   </div>
 </div>
 
@@ -324,8 +333,8 @@ style: |
 
 ## Kennzahlen des aktuellen Arbeitsstands
 
-<div class="grid four">
-  <div class="metric"><strong>63</strong><span>Markdown-Dateien</span></div>
+<div class="grid four metrics">
+  <div class="metric"><strong>64</strong><span>Markdown-Dateien</span></div>
   <div class="metric"><strong>14</strong><span>Governance- und Standarddokumente</span></div>
   <div class="metric"><strong>17</strong><span>Kapitel im Referenzhandbuch</span></div>
   <div class="metric"><strong>4</strong><span>Recherchedateien</span></div>
@@ -335,7 +344,7 @@ style: |
   <div class="metric"><strong>25</strong><span>Tooling-Dateien</span></div>
 </div>
 
-<p class="small center">Technischer Prüfstand: Markdown-Validierung erfolgreich; Doctor-Check mit 11 bestandenen Prüfungen.</p>
+<p class="small center technical-note"><strong>Hinweis zum technischen Prüfstand:</strong> Markdown-Validierung erfolgreich; Doctor-Check mit 11 bestandenen Prüfungen.</p>
 
 ---
 
@@ -359,16 +368,47 @@ style: |
 
 ---
 
+## Welche Bereiche tragen das Modell?
+
+<div class="grid three">
+  <div class="card">
+    <h3>00_Governance</h3>
+    <p>Definiert verbindliche Regeln, Rollen, Dokumentstandards und Qualitätskriterien.</p>
+  </div>
+  <div class="card">
+    <h3>01_Handbuecher</h3>
+    <p>Bündelt Fachprojekt, Steckbrief, Recherche, Praxistests, Kapitel und Referenzhandbuch.</p>
+  </div>
+  <div class="card">
+    <h3>02_Confluence</h3>
+    <p>Nimmt abgeleitete Veröffentlichungsinhalte auf; das Referenzhandbuch bleibt maßgeblich.</p>
+  </div>
+  <div class="card">
+    <h3>03_Assets</h3>
+    <p>Verwaltet wiederverwendbare Abbildungen, Logos, Screenshots und Vorlagen.</p>
+  </div>
+  <div class="card">
+    <h3>04_Quellenarchiv und 99_Archiv</h3>
+    <p>Trennen externe Quellenbestände von alten Versionen und abgeschlossenen Ablagen.</p>
+  </div>
+  <div class="card">
+    <h3>90_Projektverwaltung</h3>
+    <p>Dokumentiert Phasen, Sprints, Baselines, Architekturentscheidungen und Planung.</p>
+  </div>
+</div>
+
+---
+
 ## Themenlandkarte des Referenzhandbuchs
 
-| Themencluster | Kapitel und Inhalte | Aktueller Schwerpunkt |
-|---------------|---------------------|-----------------------|
-| Grundlagen | Vorwort, Grundlagen, SAP GUI for Windows, Installation | Offen |
-| Barrierefreiheit | Accessibility Mode, Einstellungen, Nachweise | In Bearbeitung |
-| Darstellung und Interaktion | Themes, Schrift, Screenreader, Tastaturbedienung | Offen beziehungsweise in Recherche |
-| Betrieb und Administration | Scripting, Sicherheit, Administration | Offen |
-| Nutzungshilfe | Einschränkungen, Troubleshooting, FAQ | Offen |
-| Wissensbasis | Glossar und Quellen | Offen |
+| Themencluster               | Kapitel und Inhalte                                    | Aktueller Schwerpunkt              |
+| --------------------------- | ------------------------------------------------------ | ---------------------------------- |
+| Grundlagen                  | Vorwort, Grundlagen, SAP GUI for Windows, Installation | Offen                              |
+| Barrierefreiheit            | Accessibility Mode, Einstellungen, Nachweise           | In Bearbeitung                     |
+| Darstellung und Interaktion | Themes, Schrift, Screenreader, Tastaturbedienung       | Offen beziehungsweise in Recherche |
+| Betrieb und Administration  | Scripting, Sicherheit, Administration                  | Offen                              |
+| Nutzungshilfe               | Einschränkungen, Troubleshooting, FAQ                  | Offen                              |
+| Wissensbasis                | Glossar und Quellen                                    | Offen                              |
 
 <div class="callout">
   <p><strong>Fachlicher Fokus:</strong> Kapitel 5 ist der belastbare Ausgangspunkt. Die übrigen 16 Kapitel bilden den sichtbaren Ausbaupfad des Handbuchs.</p>
@@ -378,12 +418,12 @@ style: |
 
 ## Vier fachliche Themenpakete im Blick
 
-| Themenpaket | Gegenstand | Dokumentierter Stand | Bedeutung für das Handbuch |
-|-------------|------------|------------------------|-----------------------------|
-| ACC-001 | Accessibility Mode | 3 Evidenzen verifiziert | Aktivierung und Neustartverhalten veröffentlicht |
-| ACC-002 | Einstellungen zur Barrierefreiheit | 2 von 7 Evidenzen verifiziert | teilweise veröffentlicht, insgesamt nicht freigabefähig |
-| ACC-003 | SAP Screen Reader Extensions | 5 Evidenzen in Bearbeitung | Grundlage für Screenreader-Unterstützung |
-| ACC-004 | Assistive Technologien | 3 Evidenzen in Bearbeitung | JAWS, NVDA und Windows Narrator im Recherchefokus |
+| Themenpaket | Gegenstand                         | Dokumentierter Stand          | Bedeutung für das Handbuch                              |
+| ----------- | ---------------------------------- | ----------------------------- | ------------------------------------------------------- |
+| ACC-001     | Accessibility Mode                 | 3 Evidenzen verifiziert       | Aktivierung und Neustartverhalten veröffentlicht        |
+| ACC-002     | Einstellungen zur Barrierefreiheit | 2 von 7 Evidenzen verifiziert | teilweise veröffentlicht, insgesamt nicht freigabefähig |
+| ACC-003     | SAP Screen Reader Extensions       | 5 Evidenzen in Bearbeitung    | Grundlage für Screenreader-Unterstützung                |
+| ACC-004     | Assistive Technologien             | 3 Evidenzen in Bearbeitung    | JAWS, NVDA und Windows Narrator im Recherchefokus       |
 
 <p class="small">Statusangaben entsprechen den jeweiligen Recherchedateien und dem aktuellen Topic-Review.</p>
 
@@ -418,33 +458,16 @@ style: |
 
 ## Evidenzen und Praxistests
 
-<div class="grid two">
-  <div>
-    <h3>18 Evidenzen</h3>
-    <table>
-      <thead><tr><th>Status</th><th>Anzahl</th></tr></thead>
-      <tbody>
-        <tr><td>Verifiziert</td><td>5</td></tr>
-        <tr><td>In Vorbereitung</td><td>1</td></tr>
-        <tr><td>In Bearbeitung</td><td>12</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <div>
-    <h3>7 Praxistests</h3>
-    <table>
-      <thead><tr><th>Status</th><th>Testfälle</th></tr></thead>
-      <tbody>
-        <tr><td>Abgeschlossen</td><td>PT-001 bis PT-003</td></tr>
-        <tr><td>Blockiert</td><td>PT-004 bis PT-007</td></tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+| Status          | Anzahl |
+| --------------- | ------ |
+| Verifiziert     | 5      |
+| In Vorbereitung | 1      |
+| In Bearbeitung  | 12     |
 
-<div class="callout">
-  <p><strong>Engpass:</strong> Vier Tests sind weiterhin blockiert. Gleichzeitig dokumentiert PT-002 inzwischen eine verfügbare Testumgebung. Diese Abweichung muss fachlich geklärt werden.</p>
-</div>
+| Status        | Testfälle         |
+| ------------- | ----------------- |
+| Abgeschlossen | PT-001 bis PT-003 |
+| Blockiert     | PT-004 bis PT-007 |
 
 ---
 
@@ -473,19 +496,19 @@ style: |
 
 ## Der aktuelle Konsolidierungsbedarf
 
-| Ebene | Beobachtung | Erforderliche Klärung |
-|-------|-------------|-----------------------|
-| `PROJECT_STATUS.md` | nennt noch ACC-001 und 39 Dateien | aktuellen Projektstand kontrolliert nachführen |
-| AKB-008 | Baseline 1.1 dokumentiert, Statuslisten enden bei ACC-001 und PT-001 | Evidenz- und Testübersichten synchronisieren |
-| ACC-002-E02 | verifiziert, PT-002 abgeschlossen, Referenzhandbuch nicht freigegeben | fachliche Texte und Freigabestatus getrennt prüfen |
-| PT-004 bis PT-007 | weiterhin wegen fehlender Testumgebung blockiert | Begründung gegen aktuellen Teststand prüfen |
-| Topic-Review ACC-002 | Evidenzen und Praxistests nicht abschlussbereit | offene Kriterien einzeln abarbeiten |
+| Ebene                | Beobachtung                                                           | Erforderliche Klärung                              |
+| -------------------- | --------------------------------------------------------------------- | -------------------------------------------------- |
+| `PROJECT_STATUS.md`  | nennt noch ACC-001 und 39 Dateien                                     | aktuellen Projektstand kontrolliert nachführen     |
+| AKB-008              | Baseline 1.1 dokumentiert, Statuslisten enden bei ACC-001 und PT-001  | Evidenz- und Testübersichten synchronisieren       |
+| ACC-002-E02          | verifiziert, PT-002 abgeschlossen, Referenzhandbuch nicht freigegeben | fachliche Texte und Freigabestatus getrennt prüfen |
+| PT-004 bis PT-007    | weiterhin wegen fehlender Testumgebung blockiert                      | Begründung gegen aktuellen Teststand prüfen        |
+| Topic-Review ACC-002 | Evidenzen und Praxistests nicht abschlussbereit                       | offene Kriterien einzeln abarbeiten                |
 
 <p class="small">Die Abweichungen sind dokumentiert. Eine automatische Bereinigung ohne fachlichen Scope ist ausdrücklich nicht vorgesehen.</p>
 
 ---
 
-## Vorgeschlagener weiterer Verlauf
+## Unser weiterer Projektverlauf
 
 <div class="roadmap">
   <div class="roadmap-stage">
@@ -526,19 +549,19 @@ style: |
   </div>
 </div>
 
-<p class="small center">Vorschlag zur Abstimmung; noch keine fachliche Freigabe oder verbindliche Terminplanung.</p>
+<p class="small">Die vier Etappen strukturieren unseren weiteren Projektverlauf. Fachliche Freigaben erfolgen an den dokumentierten Prüfpunkten.</p>
 
 ---
 
 ## Abschlusskriterien je Etappe
 
-| Etappe | Abschlusskriterium |
-|--------|--------------------|
-| Statusbasis | zentrale Übersichten und Fachdokumente weisen nachvollziehbare, konsistente Stände aus |
-| Testlücken | Testumgebung, Schritte, Ergebnisse und Freigabe sind für jeden betroffenen Test dokumentiert |
-| Recherche | Evidenzen besitzen vollständige Nachweise und einen geprüften Referenzhandbuchstatus |
-| Redaktion | nur freigegebene Aussagen sind in Kapitel 5 übernommen |
-| Veröffentlichung | Validierung und Topic-Review sind erfolgreich; Ausgabeweg ist festgelegt |
+| Etappe           | Abschlusskriterium                                                                           |
+| ---------------- | -------------------------------------------------------------------------------------------- |
+| Statusbasis      | zentrale Übersichten und Fachdokumente weisen nachvollziehbare, konsistente Stände aus       |
+| Testlücken       | Testumgebung, Schritte, Ergebnisse und Freigabe sind für jeden betroffenen Test dokumentiert |
+| Recherche        | Evidenzen besitzen vollständige Nachweise und einen geprüften Referenzhandbuchstatus         |
+| Redaktion        | nur freigegebene Aussagen sind in Kapitel 5 übernommen                                       |
+| Veröffentlichung | Validierung und Topic-Review sind erfolgreich; Ausgabeweg ist festgelegt                     |
 
 <div class="callout">
   <p><strong>Leitplanke:</strong> Jeder Übergang erfolgt erst nach erfüllten Nachweisen. Geschwindigkeit ersetzt keine fachliche Freigabe.</p>
@@ -546,19 +569,19 @@ style: |
 
 ---
 
-## Entscheidungen für die Referatsrunde
+## Rahmenbedingungen für die nächste Etappe
 
 <div class="grid two">
   <div class="card">
-    <h3>Prioritäten</h3>
+    <h3>Unser Arbeitsfokus</h3>
     <ul>
-      <li>Vorgeschlagene Reihenfolge bestätigen</li>
-      <li>ACC-002 vor ACC-003 und ACC-004 abschließen?</li>
-      <li>Exportplanung parallel oder nach fachlicher Konsolidierung?</li>
+      <li>Statusbasis und ACC-002 konsolidieren</li>
+      <li>PT-004 bis PT-007 auf geklärter Testumgebung bearbeiten</li>
+      <li>ACC-003 und ACC-004 anschließend fachlich abschließen</li>
     </ul>
   </div>
   <div class="card">
-    <h3>Verantwortung und Ressourcen</h3>
+    <h3>Was wir dafür benötigen</h3>
     <ul>
       <li>Verantwortliche Reviewrolle benennen</li>
       <li>SAP-GUI-Testumgebung verbindlich bereitstellen</li>
@@ -568,21 +591,21 @@ style: |
 </div>
 
 <div class="callout">
-  <p><strong>Gewünschtes Ergebnis:</strong> Ein bestätigter nächster Scope mit Verantwortlichkeit, Reihenfolge und überprüfbaren Abschlusskriterien.</p>
+  <p><strong>Nächster Meilenstein:</strong> Ein abgegrenzter Arbeitsscope mit Verantwortlichkeit, Reihenfolge und überprüfbaren Abschlusskriterien.</p>
 </div>
 
 ---
 
 ## Abkürzungsverzeichnis I – Projekt und Verfahren
 
-| Kürzel | Bedeutung | Verwendung im Projekt |
-|--------|-----------|-----------------------|
-| AKB | Accessibility Knowledge Base | Wissensplattform und Kennung zentraler Dokumente |
-| ACC | Projektkennung für Recherche- und Themenpakete | beispielsweise ACC-001 bis ACC-004 |
-| E | Evidenz | einzelne fachliche Aussage innerhalb eines Themenpakets |
-| PT | Praxistest | reproduzierbare Prüfung mit Testumgebung, Schritten und Ergebnis |
-| ADR | Architecture Decision Record | Begründung einer langfristigen Architekturentscheidung |
-| CLI | Command-Line Interface | zentraler Kommandozeilenzugang zum AKB-Tooling |
+| Kürzel | Bedeutung                                      | Verwendung im Projekt                                            |
+| ------ | ---------------------------------------------- | ---------------------------------------------------------------- |
+| AKB    | Accessibility Knowledge Base                   | Wissensplattform und Kennung zentraler Dokumente                 |
+| ACC    | Projektkennung für Recherche- und Themenpakete | beispielsweise ACC-001 bis ACC-004                               |
+| E      | Evidenz                                        | einzelne fachliche Aussage innerhalb eines Themenpakets          |
+| PT     | Praxistest                                     | reproduzierbare Prüfung mit Testumgebung, Schritten und Ergebnis |
+| ADR    | Architecture Decision Record                   | Begründung einer langfristigen Architekturentscheidung           |
+| CLI    | Command-Line Interface                         | zentraler Kommandozeilenzugang zum AKB-Tooling                   |
 
 <div class="callout">
   <p><strong>Lesebeispiel:</strong> ACC-002-E03 bezeichnet die dritte Evidenz des Themenpakets ACC-002; PT-003 ist der zugeordnete Praxistest.</p>
@@ -592,16 +615,16 @@ style: |
 
 ## Abkürzungsverzeichnis II – Dokumentstandards
 
-| Kürzel | Geltungsbereich | Rolle im Workflow |
-|--------|-----------------|-------------------|
+| Kürzel  | Geltungsbereich      | Rolle im Workflow                            |
+| ------- | -------------------- | -------------------------------------------- |
 | GOV-1.0 | Governance-Dokumente | verbindliche Regeln und Verantwortlichkeiten |
-| STB-1.0 | Kapitel-Steckbriefe | Planung und Steuerung eines Kapitels |
-| RCH-2.0 | Recherchedateien | Evidenzen und Quellen dokumentieren |
-| PT-1.0 | Praxistests | reproduzierbare Prüfungen dokumentieren |
-| DOC-1.0 | Kapiteldateien | freigegebenen Fachtext aufnehmen |
-| TMP-1.0 | Themenpaket-Vorlagen | strukturelle Platzhalter erzeugen |
-| TOP-1.0 | Topic Lifecycle | Status, Review und Abschluss begleiten |
-| PHS-1.0 | Phasenberichte | abgeschlossene Projektphasen dokumentieren |
+| STB-1.0 | Kapitel-Steckbriefe  | Planung und Steuerung eines Kapitels         |
+| RCH-2.0 | Recherchedateien     | Evidenzen und Quellen dokumentieren          |
+| PT-1.0  | Praxistests          | reproduzierbare Prüfungen dokumentieren      |
+| DOC-1.0 | Kapiteldateien       | freigegebenen Fachtext aufnehmen             |
+| TMP-1.0 | Themenpaket-Vorlagen | strukturelle Platzhalter erzeugen            |
+| TOP-1.0 | Topic Lifecycle      | Status, Review und Abschluss begleiten       |
+| PHS-1.0 | Phasenberichte       | abgeschlossene Projektphasen dokumentieren   |
 
 <p class="small">Die Versionsnummer ist Bestandteil der jeweiligen Standardkennung.</p>
 
@@ -609,20 +632,21 @@ style: |
 
 ## Abkürzungsverzeichnis III – Fachbegriffe
 
-| Kürzel | Bedeutung | Kontext |
-|--------|-----------|---------|
-| ITZBund | Informationstechnikzentrum Bund | verantwortlicher Projektkontext |
-| SAP GUI | SAP Graphical User Interface | betrachtete Windows-Benutzeroberfläche |
-| SRE | SAP Screen Reader Extensions | Erweiterungen für die Screenreader-Nutzung |
-| JAWS | Job Access With Speech | Screenreader im Recherchekontext |
-| NVDA | NonVisual Desktop Access | Screenreader im Recherchekontext |
-| WCAG | Web Content Accessibility Guidelines | internationale Richtlinien zur Web-Barrierefreiheit |
-| BITV | Barrierefreie-Informationstechnik-Verordnung | deutscher Rechts- und Anforderungskontext |
-| BSI | Bundesamt für Sicherheit in der Informationstechnik | Quellen- und Verwaltungskontext |
+| Kürzel  | Bedeutung                                           | Kontext                                             |
+| ------- | --------------------------------------------------- | --------------------------------------------------- |
+| ITZBund | Informationstechnikzentrum Bund                     | verantwortlicher Projektkontext                     |
+| SAP GUI | SAP Graphical User Interface                        | betrachtete Windows-Benutzeroberfläche              |
+| SRE     | SAP Screen Reader Extensions                        | Erweiterungen für die Screenreader-Nutzung          |
+| JAWS    | Job Access With Speech                              | Screenreader im Recherchekontext                    |
+| NVDA    | NonVisual Desktop Access                            | Screenreader im Recherchekontext                    |
+| WCAG    | Web Content Accessibility Guidelines                | internationale Richtlinien zur Web-Barrierefreiheit |
+| BITV    | Barrierefreie-Informationstechnik-Verordnung        | deutscher Rechts- und Anforderungskontext           |
+| BSI     | Bundesamt für Sicherheit in der Informationstechnik | Quellen- und Verwaltungskontext                     |
 
 ---
 
 <!-- _class: lead -->
+
 <!-- _paginate: false -->
 
 <p class="eyebrow">Zusammenfassung</p>
@@ -631,4 +655,4 @@ style: |
 
 <p class="closing">Kapitel 5 liefert einen belastbaren Anfang. Mit einer konsistenten Statusbasis, geklärter Testumgebung und einem priorisierten Reviewpfad kann aus dem Teilstand schrittweise ein freigabefähiges Referenzhandbuch werden.</p>
 
-**Nächster gemeinsamer Schritt:** Scope, Verantwortung und Reihenfolge bestätigen.
+**Unser nächster gemeinsamer Schritt:** Statusbasis konsolidieren und den nächsten Arbeitsscope nachvollziehbar dokumentieren.

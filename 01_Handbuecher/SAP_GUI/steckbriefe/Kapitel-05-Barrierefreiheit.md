@@ -295,7 +295,7 @@ Keine offenen Recherchepunkte für die in Kapitel 5 als verifiziert gekennzeichn
 | Eigenschaft | Wert |
 |-------------|------|
 | Task | K-TASK-0050 |
-| Reviewdatum | 13.07.2026 |
+| Reviewdatum | 14.07.2026 |
 | Reviewstatus | Nicht freigabefähig |
 | `npm run akb -- doctor` | Erfolgreich |
 | `npm run akb -- validate` | Erfolgreich |
@@ -306,13 +306,12 @@ Keine offenen Recherchepunkte für die in Kapitel 5 als verifiziert gekennzeichn
 | Nr. | Bereich | Offener Punkt | Status |
 |----:|---------|---------------|--------|
 | 1 | ACC-002-E01 | PT-002 wird als blockierter Praxistest referenziert, obwohl PT-002 ACC-002-E02 zugeordnet und abgeschlossen ist. | Offen |
-| 2 | ACC-002-E02 | Evidenz- und Praxisteststatus lauten `Verifiziert` und `Abgeschlossen`; die unveränderten Abschnitte zu Praxistest, Interpretation, fachlicher Bewertung und Ergebnis dokumentieren weiterhin den vorherigen Bearbeitungsstand. | Offen |
-| 3 | ACC-002-E02 | Der Referenzhandbuchstatus lautet weiterhin `Nicht freigegeben`. | Offen |
-| 4 | ACC-002-E04 und PT-004 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
-| 5 | ACC-002-E05 und PT-005 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
-| 6 | ACC-002-E06 und PT-006 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
-| 7 | ACC-002-E07 und PT-007 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
-| 8 | Bilddokumentation | Abbildung 5-2 wird im Steckbrief als `Referenziert` geführt, ist im geprüften Kapitel jedoch nicht referenziert. | Offen |
-| 9 | Topic Lifecycle | Das CLI-Review meldet die Kriterien `Evidenzen verifiziert und freigegeben` und `Praxistests abgeschlossen und freigegeben` als nicht erfüllt. | Offen |
+| 2 | ACC-002-E02 | Der Referenzhandbuchstatus lautet weiterhin `Nicht freigegeben`. | Offen |
+| 3 | ACC-002-E04 und PT-004 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
+| 4 | ACC-002-E05 und PT-005 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
+| 5 | ACC-002-E06 und PT-006 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
+| 6 | ACC-002-E07 und PT-007 | Evidenz und Praxistest sind nicht abgeschlossen; die dokumentierte Blockierungsbegründung entspricht nicht der in PT-002 dokumentierten Verfügbarkeit einer SAP-GUI-Testumgebung. | Offen |
+| 7 | Bilddokumentation | Abbildung 5-2 wird im Steckbrief als `Referenziert` geführt, ist im geprüften Kapitel jedoch nicht referenziert. | Offen |
+| 8 | Topic Lifecycle | Das CLI-Review meldet die Kriterien `Evidenzen verifiziert und freigegeben` und `Praxistests abgeschlossen und freigegeben` als nicht erfüllt. | Offen |
 
-Die offenen Punkte wurden im Review dokumentiert und nicht fachlich bearbeitet.
+Der zuvor dokumentierte Abgleich zwischen ACC-002-E02 und PT-002 wurde nach bestätigter fachlicher Prüfung von PT-002 abgeschlossen. Die übrigen offenen Punkte wurden nicht fachlich bearbeitet.

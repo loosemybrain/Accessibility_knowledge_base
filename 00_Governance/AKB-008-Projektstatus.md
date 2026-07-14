@@ -24,7 +24,7 @@ Es dokumentiert den aktuellen Projektfortschritt, den Bearbeitungsstand der Doku
 | Eigenschaft | Wert |
 |-------------|------|
 | Projektphase | Baseline Management |
-| Aktueller Sprint | Baseline 1.1 Freeze |
+| Aktueller Sprint | ACC-002 – Einstellungen zur Barrierefreiheit |
 | Aktuelles Themenpaket | Kapitel 5.3 - Einstellungen zur Barrierefreiheit |
 | Aktuelle Recherche | ACC-002 |
 | Aktueller Praxistest | PT-002 |

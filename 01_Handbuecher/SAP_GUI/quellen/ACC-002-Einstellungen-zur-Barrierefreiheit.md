@@ -11,7 +11,7 @@
 | Abschnitt | 5.3 - Einstellungen zur Barrierefreiheit |
 | Status | In Bearbeitung |
 | Version | 2.0 |
-| Letzte Aktualisierung | 13.07.2026 |
+| Letzte Aktualisierung | 14.07.2026 |
 
 ---
 
@@ -179,25 +179,27 @@ SAP dokumentiert folgende Wertbedeutungen:
 
 PT-002 ist abgeschlossen.
 
-Testergebnisse liegen nicht vor.
+Die Position, Bezeichnung und Umschaltbarkeit der Einstellung wurden bestätigt. Bei aktiviertem Accessibility Mode sind die abhängigen Accessibility-Optionen auswählbar; bei deaktiviertem Accessibility Mode sind sie nicht auswählbar.
+
+Der jeweilige Zustand blieb nach einem Neustart von SAP Logon erhalten. Der ursprüngliche aktivierte Zustand wurde nach Abschluss des Tests wiederhergestellt.
 
 ---
 
 #### Interpretation
 
-Eine abschließende Interpretation erfolgt nach Abschluss des Praxistests.
+PT-002 bestätigt das dokumentierte Verhalten der Einstellung `Use Accessibility Mode`. Die Einstellung steuert, ob die abhängigen Accessibility-Optionen auswählbar sind.
 
 ---
 
 #### Fachliche Bewertung
 
-Eine abschließende fachliche Bewertung erfolgt nach Vergleich zwischen Herstellerdokumentation und Praxistest.
+Die Herstellerdokumentation und der Praxistest stimmen hinsichtlich der Aktivierung und Deaktivierung des Accessibility Mode überein. Im Praxistest wurde keine Abweichung vom dokumentierten Funktions- und Neustartverhalten festgestellt.
 
 ---
 
 #### Ergebnis
 
-Die Evidenz befindet sich in Bearbeitung und ist nicht für das Referenzhandbuch freigegeben.
+Die Funktion der Einstellung `Use Accessibility Mode` ist durch die Herstellerquelle und PT-002 belegt. Die Evidenz ist verifiziert und weiterhin nicht für das Referenzhandbuch freigegeben.
 
 ---
 
