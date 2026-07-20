@@ -469,7 +469,51 @@ npm run akb -- validate
 
 ---
 
-## 13 Qualitätsregel
+## 13 Aktueller Task – Evidenz ACC-001-E03 ergänzen
+
+```text
+Task-ID:
+AKB-TASK-0004
+
+Phase:
+Phase 3 – Fachliche Dokumentation
+
+Sprint:
+ACC-001 – Accessibility Mode
+
+Ziel:
+Die Evidenz ACC-001-E03 zum Neustartverhalten des Accessibility Mode im Recherche- und Kapiteltext sauber ergänzen.
+
+Scope:
+Nur die angegebene Recherchedatei und den zugehörigen Kapitelabschnitt ändern.
+
+Dateien:
+01_Handbuecher/SAP_GUI/quellen/ACC-001-Accessibility-Mode.md
+01_Handbuecher/SAP_GUI/kapitel/05-Barrierefreiheit.md
+
+Aktion:
+Abschnitt ersetzen
+
+Einfügeposition:
+### 3.3 Evidenz ACC-001-E03
+Abschnitt 5.3.2 Accessibility Mode einschalten
+
+Erwartetes Ergebnis:
+Die Aussage zum Neustartverhalten ist fachlich belegt, in der Recherchedatei konsistent dargestellt und im Kapitel mit dem vorhandenen Praxistest verknüpft.
+
+Nicht erlaubt:
+Keine neuen Themen anlegen.
+Keine freigegebenen Inhalte ändern.
+Keine Ordnerstruktur ändern.
+Keine fachlichen Aussagen ergänzen, die nicht durch die vorhandene Herstellerdokumentation und den Praxistest abgesichert sind.
+
+Validierung:
+npm run akb:validate
+```
+
+---
+
+## 14 Qualitätsregel
 
 Ein Task ist nur gültig, wenn eindeutig ist:
 

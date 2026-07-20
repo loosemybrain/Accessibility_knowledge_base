@@ -285,6 +285,7 @@ Status: Verifiziert.
 Die folgende Aussage kann in das Referenzhandbuch übernommen werden:
 
 - Änderungen am Accessibility Mode werden erst nach einem Neustart von SAP Logon beziehungsweise SAP Logon Pad wirksam.
+- Dieser Zusammenhang wurde in der Herstellerdokumentation beschrieben und im Praxistest PT-001 reproduzierbar nachvollzogen.
 
 ---
 

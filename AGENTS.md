@@ -321,3 +321,15 @@ npm run akb -- topic finish ACC-005 --phase T005 --title "Titel"
 Lifecycle-Befehle prüfen und erzeugen organisatorische Abschlussartefakte.
 
 Sie setzen keine fachlichen Freigaben und erzeugen keine fachlichen Inhalte.
+
+---
+
+## 20 Vorbereitung externer Praxistests
+
+Der Automatisierungsagent darf reproduzierbare Klickanleitungen, Ergebnisprotokolle, Screenshot-Vorgaben und Rücksetzschritte vorbereiten.
+
+Werden Tests in einer externen Arbeitsumgebung durchgeführt, bleiben Teststatus, Beobachtungen, Bewertungen und Freigaben bis zur tatsächlichen Durchführung unverändert.
+
+Eine abgeschlossene Vorbereitungsphase bedeutet nicht, dass der zugehörige Praxistest durchgeführt oder fachlich abgeschlossen wurde.
+
+Vom Praxistester bereitgestellte Ergebnisse dürfen nur innerhalb des eindeutig beauftragten Praxistest-Scope dokumentiert werden.

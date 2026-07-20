@@ -45,6 +45,8 @@ Abbildung 5-1: Einstellungen für Barrierefreiheit in den SAP-GUI-Optionen.
 
 > [!IMPORTANT]
 > Eine Änderung am Accessibility Mode wird erst nach dem Neustart von SAP Logon beziehungsweise SAP Logon Pad wirksam. Dies gilt sowohl für die Aktivierung als auch für die Deaktivierung.
+>
+> Dieser Zusammenhang wurde im Praxistest PT-001 nachvollzogen.
 
 ## 5.4 Schreibgeschützte und deaktivierte Elemente in die Tabulatorreihenfolge einbeziehen
 
